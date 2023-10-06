@@ -33,9 +33,9 @@
  width: 30%;
     height: 80%;
     position: absolute;
-    left: 60%;
-    transform: rotate(2deg);
-    top: 10%;
+    left: 43%;
+    transform: rotate(-5deg);
+    top: 22.5%;
     z-index: 10;
 
 }
