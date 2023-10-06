@@ -11,9 +11,14 @@ import styled from "styled-components";
 
 const Widget = styled.div`
   display: flex;
+  width: 70%;
   flex-direction: column;
   gap: 5%;
+  justify-content: space-around;
+  align-items: center;
   background-color: white;
+  border-radius: 10px;
+
 `;
 
 function Home() {
@@ -61,7 +66,7 @@ function Home() {
           duration: 3,
           ease: "linear",
         }}>
-        <div class="treat-yourself-with-beautiful-white-smile">
+        <div class="text-homepage">
           <span>
             <span>
               Zâmbiți cu Încredere:
