@@ -10,7 +10,7 @@ const NavContainer = styled(motion.div)`
   background-color: #f6f4eb;
   color: #4682a9;
   z-index: 6;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

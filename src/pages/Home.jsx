@@ -2,6 +2,8 @@ import React from "react";
 import "../style/home.css";
 import Tooth from "../assets/tooth.png";
 import Tooth1 from "../assets/tooth2.png";
+import Tooth2 from "../assets/tooth3.png";
+
 
 import Logo from "../components/Logo";
 import { motion } from "framer-motion";
@@ -41,6 +43,11 @@ function Home() {
             src={Tooth1}
             alt="catalin teodor dentist"
           />
+          <img
+            className="image-right3"
+            src={Tooth2}
+            alt="catalin teodor dentist"
+          />
         </motion.path>
       </div>
       <motion.path
@@ -62,9 +69,7 @@ function Home() {
               Expertiza Noastră,
               <br />
             </span>
-            <span class="span2">
-              Zâmbetul{" "}
-            </span>
+            <span class="span2">Zâmbetul </span>
             <span>Dumneavoastră.</span>
           </span>
         </div>

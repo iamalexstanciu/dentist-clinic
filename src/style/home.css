@@ -1,70 +1,80 @@
-@import url('https://fonts.cdnfonts.com/css/reddit-sans-condensed');
-@import url('https://fonts.cdnfonts.com/css/nevermind-display');
+@import url('https://fonts.cdnfonts.com/css/phlatt-grotesk');
 
 
 .visual {
-    width: 100vw;
-    height: 80vh;
-    position: static;
+height: 80vh;
+position: static;
 }
 
 .top-right-background {
-    background: linear-gradient(257.12deg,
-            #DAFFEF 0%,
-            #FCFFFD 100%);
-    opacity: 0.5;
-    width: 50%;
-    height: 100vh;
-    position: absolute;
-    left: 50%;
+background: linear-gradient(257.12deg,
+#DAFFEF 0%,
+#FCFFFD 100%);
+opacity: 0.5;
+width: 50%;
+height: 100vh;
+position: absolute;
+left: 50%;
 }
 
 .image-right {
-    width: 30%;
-    height: 80%;
-    position: absolute;
-    left: 60%;
-    transform: rotate(2deg);
-    top: 10%;
-    z-index: 10;
+width: 30%;
+height: 80%;
+position: absolute;
+left: 60%;
+transform: rotate(2deg);
+top: 10%;
+z-index: 10;
 }
 
 .image-right2{
- width: 30%;
-    height: 80%;
+width: 30%;
+height: 80%;
+position: absolute;
+left: 43%;
+transform: rotate(-5deg);
+top: 22.5%;
+z-index: 10;
+
+}
+
+.image-right3 {
+    width: 25%;
+    height: 70%;
     position: absolute;
-    left: 43%;
-    transform: rotate(-5deg);
-    top: 22.5%;
-    z-index: 10;
+    left: 72%;
+    transform: rotate(5deg);
+    top: 20%;
+    z-index: 8;
 
 }
 .treat-yourself-with-beautiful-white-smile {
-    width: 50%;
-    font: 400 60px 'NeverMind Display',
-        sans-serif;
-    position: absolute;
-    left: 5%;
-    top: 25%;
+width: 50%;
+font: 400 60px 'Phlatt Grotesk',
+sans-serif;
+position: absolute;
+left: 5%;
+top: 25%;
 }
 
 
 .span2 {
-    color: #ffffff;
-    font: 800 70px 'Reddit Sans Condensed',
-        sans-serif;
+color: #ffffff;
+font: 600 70px 'Reddit Sans Condensed',
+sans-serif;
+letter-spacing: 2px;
 }
 
 
 
 .subsection {
-    display: flex;
-    flex-direction: row;
-    background: #ffffff86;
-    border-radius: 5px;
-    width: 55vw;
-    height: 20vh;
-    position: absolute;
-    left: 1%;
-    top: 75%;
+display: flex;
+flex-direction: row;
+background: #ffffff86;
+border-radius: 5px;
+width: 55vw;
+height: 20vh;
+position: absolute;
+left: 1%;
+top: 75%;
 }
