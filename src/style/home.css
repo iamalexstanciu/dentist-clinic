@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/reddit-sans-condensed');
+@import url('https://fonts.cdnfonts.com/css/nevermind-display');
+
 
 .visual {
     width: 100vw;
@@ -16,7 +19,7 @@
     left: 50%;
 }
 
-.image {
+.image-right {
     width: 30%;
     height: 80%;
     position: absolute;
@@ -26,66 +29,20 @@
     z-index: 10;
 }
 
-.overlays {
+.image-right2{
+ width: 30%;
+    height: 80%;
     position: absolute;
-    left: 624px;
-    top: 96px;
-    overflow: visible;
-}
+    left: 60%;
+    transform: rotate(2deg);
+    top: 10%;
+    z-index: 10;
 
-.arrow-down {
-    position: absolute;
-    left: 1805.91px;
-    top: 672px;
-    transform: translate(-3.68px, 0px);
-    overflow: visible;
 }
-
-.arrow-up {
-    position: absolute;
-    left: 1805.91px;
-    top: 656px;
-    transform: translate(-3.68px, -56.5px);
-    overflow: visible;
-}
-
-.social {
-    width: 20.32px;
-    height: 180.03px;
-    position: static;
-}
-
-.icon-twitter {
-    position: absolute;
-    left: 1797.14px;
-    top: 334.57px;
-    overflow: visible;
-}
-
-.icon-youtube {
-    position: absolute;
-    left: 1796px;
-    top: 281.28px;
-    overflow: visible;
-}
-
-.icon-instagram {
-    position: absolute;
-    left: 1797.13px;
-    top: 224.71px;
-    overflow: visible;
-}
-
-.icon-facebook-f {
-    position: absolute;
-    left: 1800.84px;
-    top: 167.32px;
-    overflow: visible;
-}
-
 .treat-yourself-with-beautiful-white-smile {
     width: 50%;
-    font: 700 66px "Kollektif", sans-serif;
+    font: 400 60px 'NeverMind Display',
+        sans-serif;
     position: absolute;
     left: 5%;
     top: 25%;
@@ -94,21 +51,15 @@
 
 .span2 {
     color: #ffffff;
-    font: 700 66px "Kollektif", sans-serif;
+    font: 800 70px 'Reddit Sans Condensed',
+        sans-serif;
 }
 
-.treat-yourself-with-beautiful-white-smile-span3 {
-    color: #282828;
-    font: 700 66px "Kollektif", sans-serif;
-}
+
 
 .subsection {
-    width: 80vw;
-    height: 25vh;
-    position: static;
-}
-
-.white-background {
+    display: flex;
+    flex-direction: row;
     background: #ffffff86;
     border-radius: 5px;
     width: 55vw;
@@ -116,133 +67,4 @@
     position: absolute;
     left: 1%;
     top: 75%;
-}
-
-.widget-1 {
-    width: 168px;
-    height: 109px;
-    position: static;
-}
-
-.learn-more {
-    color: #a7adaf;
-    text-align: left;
-    font: 400 18px "Kollektif", sans-serif;
-    position: absolute;
-    left: 80px;
-    top: 622px;
-    width: 104px;
-    height: 34px;
-}
-
-.arrow {
-    position: absolute;
-    left: 200px;
-    top: 633px;
-    overflow: visible;
-}
-
-.preventive-care {
-    color: #000000;
-    text-align: left;
-    font: 400 21px "Kollektif", sans-serif;
-    position: absolute;
-    left: 79px;
-    top: 580px;
-    width: 168px;
-}
-
-._01 {
-    color: #5ba3bb;
-    text-align: left;
-    font: 700 24px "Kollektif", sans-serif;
-    position: absolute;
-    left: 80px;
-    top: 547px;
-}
-
-.widget-2 {
-    width: 168px;
-    height: 109px;
-    position: static;
-}
-
-.learn-more2 {
-    color: #a7adaf;
-    text-align: left;
-    font: 400 18px "Kollektif", sans-serif;
-    position: absolute;
-    left: 352px;
-    top: 622px;
-    width: 104px;
-    height: 34px;
-}
-
-.arrow2 {
-    position: absolute;
-    left: 472px;
-    top: 633px;
-    overflow: visible;
-}
-
-.restorative-care {
-    color: #000000;
-    text-align: left;
-    font: 400 21px "Kollektif", sans-serif;
-    position: absolute;
-    left: 351px;
-    top: 580px;
-    width: 168px;
-}
-
-._02 {
-    color: #5ba3bb;
-    text-align: left;
-    font: 700 24px "Kollektif", sans-serif;
-    position: absolute;
-    left: 352px;
-    top: 547px;
-}
-
-.widget-3 {
-    width: 256px;
-    height: 109px;
-    position: static;
-}
-
-.learn-more3 {
-    color: #a7adaf;
-    text-align: left;
-    font: 400 18px "Kollektif", sans-serif;
-    position: absolute;
-    left: 641px;
-    top: 622px;
-    width: 104px;
-    height: 34px;
-}
-
-.arrow3 {
-    position: absolute;
-    left: 761px;
-    top: 633px;
-    overflow: visible;
-}
-
-.cosmetic-dentistry {
-    color: #000000;
-    text-align: left;
-    font: 400 21px "Kollektif", sans-serif;
-    position: absolute;
-    left: 640px;
-    top: 580px;
-    width: 256px;
-}
-
-._03 {
-    color: #5ba3bb;
-    text-align: left;
-    font: 700 24px "Kollektif", sans-serif;
-    position: absolute;
-    left: 641px;
-    top: 547px;
 }
