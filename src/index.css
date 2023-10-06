@@ -17,8 +17,6 @@ section {
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-size: 50px;
-  color: red;
-  background-color: orange;
+  background-color: #91C8E4;
   border: 2px black solid
 }

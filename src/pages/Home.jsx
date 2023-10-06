@@ -1,15 +1,28 @@
 import React from "react";
 import "../style/home.css";
+import Tooth from "../assets/tooth.png";
+import Logo from "../components/Logo";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <div className="section" id="home">
+      <Logo />
       <div class="visual">
         <div class="top-right-background"></div>
-        <img
-          class="image"
-          src="https://images.unsplash.com/photo-1654373535457-383a0a4d00f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
-        />
+        <motion.path
+          initial={{
+            opacity: 0.2,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+          transition={{
+            duration: 4,
+            ease: "easeInOut",
+          }}>
+          <img className="image" src={Tooth} alt="catalin teodor dentist" />
+        </motion.path>
 
         <svg
           class="arrow-down"
@@ -89,22 +102,34 @@ function Home() {
           </svg>
         </div>
       </div>
-      <div class="treat-yourself-with-beautiful-white-smile">
-        <span>
-          <span class="treat-yourself-with-beautiful-white-smile-span">
-            Treat yourself
-            <br />
-            with beautiful,
-            <br />
+      <motion.path
+        initial={{
+          opacity: 0.2,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 3,
+          ease: "linear",
+        }}>
+        <div class="treat-yourself-with-beautiful-white-smile">
+          <span>
+            <span class="treat-yourself-with-beautiful-white-smile-span">
+              Treat yourself
+              <br />
+              with beautiful,
+              <br />
+            </span>
+            <span class="treat-yourself-with-beautiful-white-smile-span2">
+              white{" "}
+            </span>
+            <span class="treat-yourself-with-beautiful-white-smile-span3">
+              smile.
+            </span>
           </span>
-          <span class="treat-yourself-with-beautiful-white-smile-span2">
-            white{" "}
-          </span>
-          <span class="treat-yourself-with-beautiful-white-smile-span3">
-            smile.
-          </span>
-        </span>
-      </div>
+        </div>
+      </motion.path>
       <div class="subsection">
         <div class="white-background"></div>
         <div class="widget-1">
