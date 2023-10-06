@@ -73,7 +73,7 @@ letter-spacing: 2px;
 .subsection {
 display: flex;
 flex-direction: row;
-gap: 5%;
+gap: 3.5%;
 justify-content: space-between;
 align-items: center;
 background: #ffffff86;
@@ -86,3 +86,10 @@ top: 75%;
 z-index: 10;
 padding: 0.5%;
 }
+
+.subsection a {
+    text-decoration: none;
+    padding: 2%;
+}
+
+

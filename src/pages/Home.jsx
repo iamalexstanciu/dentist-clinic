@@ -3,7 +3,7 @@ import "../style/home.css";
 import Tooth from "../assets/tooth.png";
 import Tooth1 from "../assets/tooth2.png";
 import Tooth2 from "../assets/tooth3.png";
-
+import preventive from "../assets/preventive.png"
 
 import Logo from "../components/Logo";
 import { motion } from "framer-motion";
@@ -16,17 +16,15 @@ const Widget = styled.div`
   gap: 5%;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
   border-radius: 10px;
-
 `;
 
 function Home() {
   return (
     <div className="section" id="home">
       <Logo />
-      <div class="visual">
-        <div class="top-right-background"></div>
+      <div className="visual">
+        <div className="top-right-background"></div>
         <motion.path
           initial={{
             opacity: 0.2,
@@ -66,7 +64,7 @@ function Home() {
           duration: 3,
           ease: "linear",
         }}>
-        <div class="text-homepage">
+        <div className="text-homepage">
           <span>
             <span>
               Zâmbiți cu Încredere:
@@ -74,23 +72,29 @@ function Home() {
               Expertiza Noastră,
               <br />
             </span>
-            <span class="span2">Zâmbetul </span>
+            <span className="span2">Zâmbetul </span>
             <span>Dumneavoastră.</span>
           </span>
         </div>
       </motion.path>
-      <div class="subsection">
-        <Widget class="widget">
-          <h2 class="preventive-care">Grijă Preventivă</h2>
-          <h4 class="learn-more">Descoperă</h4>
+      <div className="subsection">
+        <Widget className="widget widget-1">
+          <h2 className="preventive-care">Grijă Preventivă</h2>
+          <a href="#0" className="learn-more">
+            Descoperă
+          </a>
         </Widget>
-        <Widget class="widget">
-          <h2 class="preventive-care">Îngrijire Restaurativă</h2>
-          <h4 class="learn-more">Descoperă</h4>
+        <Widget className="widget widget-2">
+          <h2 className="preventive-care">Îngrijire Restaurativă</h2>
+          <a href="#0" className="learn-more">
+            Descoperă
+          </a>
         </Widget>
-        <Widget class="widget">
-          <h2 class="preventive-care">Estetica Stomatologica</h2>
-          <h4 class="learn-more">Descoperă</h4>
+        <Widget className="widget widget-3">
+          <h2 className="preventive-care">Estetica Stomatologica</h2>
+          <a href="#0" className="learn-more">
+            Descoperă
+          </a>
         </Widget>
       </div>
     </div>
