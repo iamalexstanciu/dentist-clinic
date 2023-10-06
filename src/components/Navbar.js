@@ -7,13 +7,13 @@ const NavContainer = styled(motion.div)`
   position: fixed;
   top: ${(props) => (props.click ? "0" : `-3rem`)};
   transition: all 0.3s ease;
+  background-color: #f6f4eb;
+  color: #4682a9;
   z-index: 6;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background-color: transparent;
 
   @media (max-width: 40em) {
     top: ${(props) => (props.click ? "0" : `calc(-50vh - 4rem)`)};
@@ -29,6 +29,8 @@ const MenuItems = styled(motion.ul)`
   width: 100%;
   padding: 0 5rem;
 
+  text-decoration: none;
+
   @media (max-width: 40em) {
     flex-direction: column;
     padding: 2rem 0;
@@ -38,6 +40,8 @@ const MenuItems = styled(motion.ul)`
 
 const Item = styled(motion.li)`
   text-transform: uppercase;
+
+  text-decoration: none;
 
   @media (max-width: 40em) {
     flex-direction: column;
@@ -62,13 +66,13 @@ function Navbar() {
   const MenuBtn = styled.li`
     width: 20rem;
     height: 3rem;
-
     border: none;
     outline: none;
 
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
 
-    background-color: gray;
+    background-color: #f6f4eb;
+    color: #4682a9;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -101,34 +105,74 @@ function Navbar() {
         dragConstraints={{ top: 0, bottom: 70 }}
         dragElastic={0.05}
         dragSnapToOrigin>
-        <MenuBtn onClick={() => setIsOpen(!isOpen)}>Menu</MenuBtn>
+        <MenuBtn
+          style={{
+            textDecoration: "none",
+            fontWeight: "bold",
+            color: "#4682a9",
+          }}
+          onClick={() => setIsOpen(!isOpen)}>
+          Menu
+        </MenuBtn>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll("#home")}>
           {" "}
-          <a href="/home">Home</a>
+          <a
+            style={{
+              textDecoration: "none",
+              fontWeight: "bold",
+              color: "#4682a9",
+            }}
+            href="/home">
+            Home
+          </a>
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll("#services")}>
           {" "}
-          <a href="/services">Services</a>
+          <a
+            style={{
+              textDecoration: "none",
+              fontWeight: "bold",
+              color: "#4682a9",
+            }}
+            href="/services">
+            Services
+          </a>
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll("#about")}>
           {" "}
-          <a href="/about">About</a>
+          <a
+            style={{
+              textDecoration: "none",
+              fontWeight: "bold",
+              color: "#4682a9",
+            }}
+            href="/about">
+            About
+          </a>
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll("#contact")}>
           {" "}
-          <a href="/contact">Contact</a>
+          <a
+            style={{
+              textDecoration: "none",
+              fontWeight: "bold",
+              color: "#4682a9",
+            }}
+            href="/contact">
+            Contact
+          </a>
         </Item>
       </MenuItems>
     </NavContainer>
