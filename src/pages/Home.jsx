@@ -115,17 +115,17 @@ function Home() {
         }}>
         <div class="treat-yourself-with-beautiful-white-smile">
           <span>
-            <span class="treat-yourself-with-beautiful-white-smile-span">
-              Treat yourself
+            <span>
+              Zâmbiți cu Încredere:
               <br />
-              with beautiful,
+              Expertiza Noastră,
               <br />
             </span>
-            <span class="treat-yourself-with-beautiful-white-smile-span2">
-              white{" "}
+            <span class="span2">
+              Zâmbetul{" "}
             </span>
-            <span class="treat-yourself-with-beautiful-white-smile-span3">
-              smile.
+            <span>
+              Dumneavoastră.
             </span>
           </span>
         </div>

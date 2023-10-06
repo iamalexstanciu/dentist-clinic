@@ -20,7 +20,8 @@
     width: 30%;
     height: 80%;
     position: absolute;
-    left: 48%;
+    left: 60%;
+    transform: rotate(2deg);
     top: 10%;
     z-index: 10;
 }
@@ -83,41 +84,38 @@
 }
 
 .treat-yourself-with-beautiful-white-smile {
-    text-align: left;
-    font: 700 96px "Kollektif", sans-serif;
+    width: 50%;
+    font: 700 66px "Kollektif", sans-serif;
     position: absolute;
-    left: 62px;
-    top: 142px;
+    left: 5%;
+    top: 25%;
 }
 
-.treat-yourself-with-beautiful-white-smile-span {
-    color: #282828;
-    font: 700 96px "Kollektif", sans-serif;
-}
 
-.treat-yourself-with-beautiful-white-smile-span2 {
-    color: #5ba3bb;
-    font: 700 96px "Kollektif", sans-serif;
+.span2 {
+    color: #ffffff;
+    font: 700 66px "Kollektif", sans-serif;
 }
 
 .treat-yourself-with-beautiful-white-smile-span3 {
     color: #282828;
-    font: 700 96px "Kollektif", sans-serif;
+    font: 700 66px "Kollektif", sans-serif;
 }
 
 .subsection {
-    width: 848px;
-    height: 136px;
+    width: 80vw;
+    height: 25vh;
     position: static;
 }
 
 .white-background {
-    background: #ffffff;
-    width: 848px;
-    height: 136px;
+    background: #ffffff86;
+    border-radius: 5px;
+    width: 55vw;
+    height: 20vh;
     position: absolute;
-    left: 64px;
-    top: 528px;
+    left: 1%;
+    top: 75%;
 }
 
 .widget-1 {
