@@ -1,0 +1,249 @@
+
+.visual {
+    width: 100vw;
+    height: 80vh;
+    position: static;
+}
+
+.top-right-background {
+    background: linear-gradient(257.12deg,
+            rgba(204, 221, 228, 1) 0%,
+            rgba(225, 241, 248, 1) 100%);
+    opacity: 0.5;
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+}
+
+.image {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+.overlays {
+    position: absolute;
+    left: 624px;
+    top: 96px;
+    overflow: visible;
+}
+
+.arrow-down {
+    position: absolute;
+    left: 1805.91px;
+    top: 672px;
+    transform: translate(-3.68px, 0px);
+    overflow: visible;
+}
+
+.arrow-up {
+    position: absolute;
+    left: 1805.91px;
+    top: 656px;
+    transform: translate(-3.68px, -56.5px);
+    overflow: visible;
+}
+
+.social {
+    width: 20.32px;
+    height: 180.03px;
+    position: static;
+}
+
+.icon-twitter {
+    position: absolute;
+    left: 1797.14px;
+    top: 334.57px;
+    overflow: visible;
+}
+
+.icon-youtube {
+    position: absolute;
+    left: 1796px;
+    top: 281.28px;
+    overflow: visible;
+}
+
+.icon-instagram {
+    position: absolute;
+    left: 1797.13px;
+    top: 224.71px;
+    overflow: visible;
+}
+
+.icon-facebook-f {
+    position: absolute;
+    left: 1800.84px;
+    top: 167.32px;
+    overflow: visible;
+}
+
+.treat-yourself-with-beautiful-white-smile {
+    text-align: left;
+    font: 700 96px "Kollektif", sans-serif;
+    position: absolute;
+    left: 62px;
+    top: 142px;
+}
+
+.treat-yourself-with-beautiful-white-smile-span {
+    color: #282828;
+    font: 700 96px "Kollektif", sans-serif;
+}
+
+.treat-yourself-with-beautiful-white-smile-span2 {
+    color: #5ba3bb;
+    font: 700 96px "Kollektif", sans-serif;
+}
+
+.treat-yourself-with-beautiful-white-smile-span3 {
+    color: #282828;
+    font: 700 96px "Kollektif", sans-serif;
+}
+
+.subsection {
+    width: 848px;
+    height: 136px;
+    position: static;
+}
+
+.white-background {
+    background: #ffffff;
+    width: 848px;
+    height: 136px;
+    position: absolute;
+    left: 64px;
+    top: 528px;
+}
+
+.widget-1 {
+    width: 168px;
+    height: 109px;
+    position: static;
+}
+
+.learn-more {
+    color: #a7adaf;
+    text-align: left;
+    font: 400 18px "Kollektif", sans-serif;
+    position: absolute;
+    left: 80px;
+    top: 622px;
+    width: 104px;
+    height: 34px;
+}
+
+.arrow {
+    position: absolute;
+    left: 200px;
+    top: 633px;
+    overflow: visible;
+}
+
+.preventive-care {
+    color: #000000;
+    text-align: left;
+    font: 400 21px "Kollektif", sans-serif;
+    position: absolute;
+    left: 79px;
+    top: 580px;
+    width: 168px;
+}
+
+._01 {
+    color: #5ba3bb;
+    text-align: left;
+    font: 700 24px "Kollektif", sans-serif;
+    position: absolute;
+    left: 80px;
+    top: 547px;
+}
+
+.widget-2 {
+    width: 168px;
+    height: 109px;
+    position: static;
+}
+
+.learn-more2 {
+    color: #a7adaf;
+    text-align: left;
+    font: 400 18px "Kollektif", sans-serif;
+    position: absolute;
+    left: 352px;
+    top: 622px;
+    width: 104px;
+    height: 34px;
+}
+
+.arrow2 {
+    position: absolute;
+    left: 472px;
+    top: 633px;
+    overflow: visible;
+}
+
+.restorative-care {
+    color: #000000;
+    text-align: left;
+    font: 400 21px "Kollektif", sans-serif;
+    position: absolute;
+    left: 351px;
+    top: 580px;
+    width: 168px;
+}
+
+._02 {
+    color: #5ba3bb;
+    text-align: left;
+    font: 700 24px "Kollektif", sans-serif;
+    position: absolute;
+    left: 352px;
+    top: 547px;
+}
+
+.widget-3 {
+    width: 256px;
+    height: 109px;
+    position: static;
+}
+
+.learn-more3 {
+    color: #a7adaf;
+    text-align: left;
+    font: 400 18px "Kollektif", sans-serif;
+    position: absolute;
+    left: 641px;
+    top: 622px;
+    width: 104px;
+    height: 34px;
+}
+
+.arrow3 {
+    position: absolute;
+    left: 761px;
+    top: 633px;
+    overflow: visible;
+}
+
+.cosmetic-dentistry {
+    color: #000000;
+    text-align: left;
+    font: 400 21px "Kollektif", sans-serif;
+    position: absolute;
+    left: 640px;
+    top: 580px;
+    width: 256px;
+}
+
+._03 {
+    color: #5ba3bb;
+    text-align: left;
+    font: 700 24px "Kollektif", sans-serif;
+    position: absolute;
+    left: 641px;
+    top: 547px;
+}
