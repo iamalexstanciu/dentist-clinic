@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/services.css";
 
 function Services() {
   return (

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import { useLocomotiveScroll } from "react-locomotive-scroll";
 import styled from "styled-components";
 
 const NavContainer = styled(motion.div)`
@@ -51,17 +50,8 @@ const Item = styled(motion.li)`
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const { scroll } = useLocomotiveScroll();
 
-  const handleScroll = (id) => {
-    let elem = document.querySelector(id);
-    setIsOpen(!isOpen);
-    scroll.scrollTo(elem, {
-      offset: "-100",
-      duration: "2000",
-      easing: [0.25, 0.0, 0.35, 1.0],
-    });
-  };
+
 
   const MenuBtn = styled.li`
     width: 20rem;
@@ -117,62 +107,30 @@ function Navbar() {
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll("#home")}>
+        >
           {" "}
-          <a
-            style={{
-              textDecoration: "none",
-              fontWeight: "bold",
-              color: "#4682a9",
-            }}
-            href="/home">
-            Home
-          </a>
+          Home
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll("#services")}>
+         >
           {" "}
-          <a
-            style={{
-              textDecoration: "none",
-              fontWeight: "bold",
-              color: "#4682a9",
-            }}
-            href="/services">
-            Services
-          </a>
+          Services
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll("#about")}>
+        >
           {" "}
-          <a
-            style={{
-              textDecoration: "none",
-              fontWeight: "bold",
-              color: "#4682a9",
-            }}
-            href="/about">
-            About
-          </a>
+          About
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll("#contact")}>
+          >
           {" "}
-          <a
-            style={{
-              textDecoration: "none",
-              fontWeight: "bold",
-              color: "#4682a9",
-            }}
-            href="/contact">
-            Contact
-          </a>
+          Contact
         </Item>
       </MenuItems>
     </NavContainer>

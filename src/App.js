@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -11,16 +10,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <section>
+      <section id="home">
         <Home />
       </section>
-      <section>
+      <section id="services">
         <Services />
       </section>
-      <section>
+      <section id="about">
         <About />
       </section>
-      <section>
+      <section id="contact">
         <Contact />
       </section>
       <Footer />
