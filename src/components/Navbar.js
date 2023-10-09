@@ -51,7 +51,13 @@ const Item = styled(motion.li)`
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsOpen(false); // Close the menu after clicking on a navigation item
+  };
 
   const MenuBtn = styled.li`
     width: 20rem;
@@ -107,28 +113,28 @@ function Navbar() {
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-        >
+          onClick={() => scrollToSection("home")}>
           {" "}
           Home
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-         >
+          onClick={() => scrollToSection("services")}>
           {" "}
           Services
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-        >
+          onClick={() => scrollToSection("about")}>
           {" "}
           About
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          >
+          onClick={() => scrollToSection("contact")}>
           {" "}
           Contact
         </Item>
