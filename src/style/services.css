@@ -23,8 +23,9 @@ max-width: 100%;
 }
 
 .widget-services {
+background: rgb(255, 255, 255);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
 border-radius: 30px;
-    background: #ffffff;
 padding: 2rem;
 display: flex;
 flex-direction: column;
@@ -35,6 +36,10 @@ width: 20rem;
 min-height: 15rem;
 }
 
+.widget-services:hover {
+    background-color:#39a3d8;
+    color: #fff;
+}
 
 .services-title-container {
 text-align: left;

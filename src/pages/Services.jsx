@@ -18,73 +18,75 @@ function Services() {
       <div className="right-side-services">
         <div className="widget-services widget-1">
           <h3 className="widget-title">
-            Preventive Care{" "}
+            Grijă preventivă{" "}
             <img
               className="icon"
               src={Preventive}
               alt="service presentation widget catalin teodor dentist"
             />
           </h3>
-          Regular check-ups and fluoride treatments to prevent tooth decay and
-          gum disease.
+          Controale regulate și tratamente cu fluor pentru a preveni cariile
+          dentare și bolile gingiilor.
         </div>
         <div className="widget-services widget-2">
           <h3 className="widget-title">
-            Restorative Care{" "}
+            Îngrijire restaurativă{" "}
             <img
               className="icon"
               src={Restorative}
               alt="service presentation widget catalin teodor dentist"
             />
           </h3>
-          Fillings, crowns, bridges, and dentures to restore damaged or missing
-          teeth.
+          Obturații, coroane, punți și proteze dentare pentru a reface dinții
+          deteriorați sau lipsă.
         </div>
         <div className="widget-services widget-3">
           <h3 className="widget-title">
-            Orthodontic Care{" "}
+            Îngrijire ortodontică{" "}
             <img
               className="icon"
               src={Orthodontic}
               alt="service presentation widget catalin teodor dentist"
             />
           </h3>
-          Braces and clear aligners to straighten teeth and correct bite issues.
+          Aparatele dentare și aliniere clare pentru a îndrepta dinții și a
+          corecta problemele de mușcătură.
         </div>
         <div className="widget-services widget-4">
           <h3 className="widget-title">
-            Oral Surgery{" "}
+            Chirurgie orala{" "}
             <img
               className="icon"
               src={Surgery}
               alt="service presentation widget catalin teodor dentist"
             />
           </h3>
-          Extractions, wisdom teeth removal, and other surgical procedures.
+          Extracții, îndepărtarea molari de minte și alte proceduri
+          chirurgicale.
         </div>
         <div className="widget-services widget-5">
           <h3 className="widget-title">
-            Cosmetic Dentistry{" "}
+            Estetica Stomatologica{" "}
             <img
               className="icon"
               src={Cosmetic}
               alt="service presentation widget catalin teodor dentist"
             />
           </h3>
-          Teeth whitening, veneers, and other procedures to improve the
-          appearance of teeth.
+          Albirea dinților, fațetele și alte proceduri pentru îmbunătățirea
+          aspectul dintilor.
         </div>
         <div className="widget-services widget-6">
           <h3 className="widget-title">
-            Dental Implants{" "}
+            Implanturi dentare{" "}
             <img
               className="icon"
               src={Implant}
               alt="service presentation widget catalin teodor dentist"
             />
           </h3>
-          Dental implants are a popular and effective way to replace missing
-          teeth.
+          Implanturile dentare sunt o modalitate populară și eficientă de a
+          înlocui lipsurile dintii.
         </div>
       </div>
     </div>

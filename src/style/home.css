@@ -37,13 +37,13 @@ z-index: 10;
 }
 
 .image-right3 {
-    width: 22%;
-    height: 70%;
-    position: absolute;
-    left: 75%;
-    transform: rotate(10deg);
-    top: 20%;
-    z-index: 8;
+width: 22%;
+height: 70%;
+position: absolute;
+left: 75%;
+transform: rotate(10deg);
+top: 20%;
+z-index: 8;
 border-radius: 150px;
 }
 .text-homepage {
@@ -71,7 +71,8 @@ gap: 3.5%;
 justify-content: space-between;
 align-items: center;
 border-radius: 30px;
-    background: #ffffff;
+background: #ffffff;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
 width: 55vw;
 height: 20vh;
 position: absolute;
@@ -82,18 +83,18 @@ padding: 0.5%;
 }
 
 .subsection a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    font-weight: 500;
+text-decoration: none;
+font-size: 20px;
+color: black;
+font-weight: 500;
 
 }
 
 .subsection a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 ._80-tooth-shine,
@@ -103,136 +104,136 @@ padding: 0.5%;
 ._80-braces-rubber-bands,
 ._80-braces-rubber-bands *
 {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 ._80-tooth-shine,
 ._80-cavity
 {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    overflow: hidden;
+width: 80px;
+height: 80px;
+position: relative;
+overflow: hidden;
 }
 
 .union {
-    border-radius: 0px;
-    position: absolute;
-    left: 8px;
-    top: 5px;
-    overflow: visible;
+border-radius: 0px;
+position: absolute;
+left: 8px;
+top: 5px;
+overflow: visible;
 }
 
 .group-109 {
-    position: absolute;
-    left: 7px;
-    top: 10px;
-    overflow: visible;
+position: absolute;
+left: 7px;
+top: 10px;
+overflow: visible;
 }
 
 .group-110 {
-    position: absolute;
-    left: 51.11px;
-    top: 41px;
-    overflow: visible;
+position: absolute;
+left: 51.11px;
+top: 41px;
+overflow: visible;
 }
 
 .union {
-    border-radius: 0px;
-    position: absolute;
-    left: 8px;
-    top: 5px;
-    overflow: visible;
+border-radius: 0px;
+position: absolute;
+left: 8px;
+top: 5px;
+overflow: visible;
 }
 
 .mask-group {
-    position: absolute;
-    left: 8px;
-    top: 5px;
-    overflow: visible;
+position: absolute;
+left: 8px;
+top: 5px;
+overflow: visible;
 }
 
 ._80-braces-rubber-bands {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    overflow: hidden;
+width: 80px;
+height: 80px;
+position: relative;
+overflow: hidden;
 }
 
 .rectangle-654 {
-    background: linear-gradient(92.31deg,
-            rgba(226, 230, 243, 1) 0%,
-            rgba(213, 218, 240, 1) 100%);
-    border-radius: 2px;
-    width: 10px;
-    height: 6px;
-    position: absolute;
-    left: 38px;
-    top: 29px;
-    transform-origin: 0 0;
-    transform: rotate(90deg) scale(1, 1);
+background: linear-gradient(92.31deg,
+rgba(226, 230, 243, 1) 0%,
+rgba(213, 218, 240, 1) 100%);
+border-radius: 2px;
+width: 10px;
+height: 6px;
+position: absolute;
+left: 38px;
+top: 29px;
+transform-origin: 0 0;
+transform: rotate(90deg) scale(1, 1);
 }
 
 .rectangle-655 {
-    background: linear-gradient(92.31deg,
-            rgba(226, 230, 243, 1) 0%,
-            rgba(213, 218, 240, 1) 100%);
-    border-radius: 2px;
-    width: 10px;
-    height: 6px;
-    position: absolute;
-    left: 51px;
-    top: 29px;
-    transform-origin: 0 0;
-    transform: rotate(90deg) scale(1, 1);
+background: linear-gradient(92.31deg,
+rgba(226, 230, 243, 1) 0%,
+rgba(213, 218, 240, 1) 100%);
+border-radius: 2px;
+width: 10px;
+height: 6px;
+position: absolute;
+left: 51px;
+top: 29px;
+transform-origin: 0 0;
+transform: rotate(90deg) scale(1, 1);
 }
 
 .group-107 {
-    position: absolute;
-    inset: 0;
+position: absolute;
+inset: 0;
 }
 
 .rectangle-657 {
-    border-radius: 0px;
-    position: absolute;
-    left: 39.17px;
-    top: 9px;
-    overflow: visible;
+border-radius: 0px;
+position: absolute;
+left: 39.17px;
+top: 9px;
+overflow: visible;
 }
 
 .rectangle-662 {
-    border-radius: 0px;
-    position: absolute;
-    left: 5.43px;
-    top: 9px;
-    overflow: visible;
+border-radius: 0px;
+position: absolute;
+left: 5.43px;
+top: 9px;
+overflow: visible;
 }
 
 .vector-541-stroke {
-    position: absolute;
-    left: 1.5px;
-    top: 34.5px;
-    overflow: visible;
+position: absolute;
+left: 1.5px;
+top: 34.5px;
+overflow: visible;
 }
 
 .vector-541-stroke2 {
-    position: absolute;
-    left: 1.5px;
-    top: 34.5px;
-    overflow: visible;
+position: absolute;
+left: 1.5px;
+top: 34.5px;
+overflow: visible;
 }
 
 .group-119 {
-    position: absolute;
-    left: 13.29px;
-    top: 35.99px;
-    overflow: visible;
+position: absolute;
+left: 13.29px;
+top: 35.99px;
+overflow: visible;
 }
 
 .group-120 {
-    position: absolute;
-    left: 47.29px;
-    top: 35.99px;
-    overflow: visible;
+position: absolute;
+left: 47.29px;
+top: 35.99px;
+overflow: visible;
 }
 
