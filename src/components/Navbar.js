@@ -8,7 +8,7 @@ const NavContainer = styled(motion.div)`
   transition: all 0.3s ease;
   background-color: #f6f4eb;
   color: #4682a9;
-  z-index: 6;
+  z-index: 100;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -54,7 +54,10 @@ function Navbar() {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      section.scrollIntoView({
+        behavior: "smooth",
+        inline: "nearest",
+      });
     }
     setIsOpen(false); // Close the menu after clicking on a navigation item
   };
