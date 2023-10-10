@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import LogoHeader from "../assets/logo.png";
 import { motion } from "framer-motion";
@@ -11,6 +10,10 @@ const Container = styled.div`
     left: 2rem;
     width: 12%;
     z-index: 5;
+  }
+
+  @media (max-width: 768px) {
+    width: 20rem;
   }
 `;
 

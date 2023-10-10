@@ -10,10 +10,11 @@ function Contact() {
       <div className="first-map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.84701126186!2d26.103876475763567!3d44.43630035143247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff385abb854d%3A0x2a6407f54fa64636!2sPia%C8%9Ba%20Rosetti%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sen!2sro!4v1696942352341!5m2!1sen!2sro"
-         
           style={{
             border: "2px solid #5e5e5e",
             borderRadius: "30px",
+            width: "60%",
+            height: "20rem",
             boxShadow:
               "rgba(46, 46, 46, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
           }}
@@ -79,6 +80,8 @@ function Contact() {
           style={{
             border: "2px solid #5e5e5e",
             borderRadius: "30px",
+            width: "60%",
+            height: "20rem",
             boxShadow:
               "rgba(46, 46, 46, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
           }}
