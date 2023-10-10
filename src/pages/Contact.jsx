@@ -68,9 +68,9 @@ function Contact() {
               alt="address cabinet piata rosetti"
               style={{ width: "5%" }}
             />
-            <a onClick={() => (window.location = "mailto:yourmail@domain.com")}>
+            <p onClick={() => (window.location = "mailto:yourmail@domain.com")}>
               Email: cabinet.rosetti@catalinteodor.ro
-            </a>
+            </p>
           </p>
         </div>
       </div>
@@ -134,9 +134,9 @@ function Contact() {
               alt="address cabinet 1 decembrie"
               style={{ width: "5%" }}
             />
-            <a onClick={() => (window.location = "mailto:yourmail@domain.com")}>
+            <p onClick={() => (window.location = "mailto:yourmail@domain.com")}>
               Email: cabinet.1decembrie@catalinteodor.ro
-            </a>
+            </p>
           </p>
         </div>
       </div>
