@@ -13,21 +13,21 @@ const Footer = () => {
     }
   };
   return (
-    <div class="footer-69">
+    <div className="footer-69">
       <div className="footer-container">
         <img
           className="logo-footer"
           src={LogoFooter}
           alt="dentist stomatolog Catalin Teodor"
         />
-        <div class="menu-header">
+        <div className="menu-header">
           <p onClick={() => scrollToSection("home")}>Acasa</p>
           <p onClick={() => scrollToSection("services")}>Servicii</p>
           <p onClick={() => scrollToSection("about")}>Despre</p>
           <p onClick={() => scrollToSection("contact")}>Contact</p>
         </div>
-        <div class="call-to-action">
-          Va asteptam! —<button>Contact</button>
+        <div className="call-to-action">
+         Pentru urgente! <button className="button-contact-footer">Contact  </button>
         </div>
       </div>
     </div>

@@ -18,10 +18,10 @@ function Contact() {
             boxShadow:
               "rgba(46, 46, 46, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
           }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
           title="Cabinet Piata Rosetti  stomatolog Catalin Teodor"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerPolicy="no-referrer-when-downgrade"></iframe>
 
         <div className="details-first-map">
           <h3
@@ -85,10 +85,10 @@ function Contact() {
             boxShadow:
               "rgba(46, 46, 46, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
           }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
           title="Cabinet 1 decembrie stomatolog Catalin Teodor"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerPolicy="no-referrer-when-downgrade"></iframe>
         <div className="details-second-map">
           <h3
             style={{
