@@ -29,3 +29,35 @@ justify-content: flex-start;
 align-items: center;
 }
 
+/* Media queries for tablet and mobile responsiveness */
+@media (max-width: 768px) {
+    .contact {
+        padding: 10px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .first-map,
+    .second-map {
+        width: 100%;
+        /* Use full width for tablet */
+    }
+}
+
+/* Additional media query for smaller mobile screens if needed */
+@media (max-width: 480px) {
+    .contact {
+        padding: 5px;
+        height: 150vh;
+        /* Adjust padding for smaller screens */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-map,
+    .second-map {
+        width: 50%;
+        /* Use full width for smaller mobile screens */
+    }
+}

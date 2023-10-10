@@ -56,3 +56,36 @@ font-family: 'Exo',
         font-family: 'Exo',
             sans-serif;
  }
+
+ /* Media query for tablet */
+ @media (max-width: 768px) {
+     .about {
+         grid-template-columns: 1fr;
+     }
+
+     .dentist-image {
+         width: 100%;
+         top: 0;
+         left: 0;
+         margin-bottom: 20px;
+     }
+
+     .right-side-about {
+         text-align: center;
+         padding: 2%;
+     }
+ }
+
+ /* Media query for mobile */
+ @media (max-width: 480px) {
+    .about {
+        height: 150vh;
+    }
+     .title-about {
+         font-size: 30px;
+     }
+
+     .description-about {
+         font-size: 16px;
+     }
+ }
