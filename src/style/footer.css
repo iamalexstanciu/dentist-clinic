@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+.footer-69,
+.footer-69 * {
+    box-sizing: border-box;
+}
+
+.footer-69 {
+    background: #ffffff;
+    width: 100vw;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background: var(--colors-blue-dark, #0a84ff);
+    border-radius: 15px;
+    padding: 5px 26px 5px 26px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    left: 1131px;
+    top: 72px;
+}
+
+.contact-us {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px 'Exo',
+        sans-serif;
+    position: relative;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 384px;
+    top: 60%;
+}
+
+.menu-header p {
+    color: #000000;
+    text-align: center;
+    font: 400 16px "Roboto", sans-serif;
+    position: relative;
+}
+
+
+
+.let-s-do-it {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Roboto", sans-serif;
+    position: absolute;
+    left: 993px;
+    top: 84px;
+}
+
+.site-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 10rem;
+}
+
+.logo-footer {
+    width: 10rem;
+    height: 5rem;
+}
