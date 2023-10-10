@@ -74,7 +74,6 @@ function Navbar() {
     border-bottom-right-radius: 50px;
 
     background-color: #f6f4eb;
-    color: #4682a9;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -113,6 +112,7 @@ function Navbar() {
             textDecoration: "none",
             fontWeight: "bold",
             color: "#4682a9",
+            marginTop: "4px",
           }}
           onClick={() => setIsOpen(!isOpen)}>
           Menu
