@@ -237,3 +237,67 @@ top: 35.99px;
 overflow: visible;
 }
 
+/* Media queries for tablet and mobile */
+@media screen and (max-width: 768px) {
+  .top-right-background {
+    width: 100%;
+    left: 0;
+  }
+
+  
+  .image-right3{
+    display: none;
+  }
+
+  .span2{
+    font-size: 35px;
+  }
+
+  .image-right
+   {
+    height: auto;
+    top: 20%;
+}
+
+.image-right2 {
+    height: auto;
+    top: 25%;
+}
+
+  .text-homepage {
+    font-size: 35px;
+    width: 35%;
+}
+  .subsection{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+ 
+
+  .image-right,
+  .image-right2
+  {
+height: auto;
+}
+
+
+  .image-right3{
+
+    display: none;
+  }
+
+  .text-homepage {
+    font-size: 24px;
+  }
+
+  .subsection {
+    width: 90vw;
+    left: 5%;
+  }
+
+  .subsection a {
+    font-size: 18px;
+  }
+}
