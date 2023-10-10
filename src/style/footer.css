@@ -3,11 +3,15 @@
 .footer-69,
 .footer-69 * {
     box-sizing: border-box;
+    background-image: url("../assets/wave.png");
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover;
 }
 
 .footer-69 {
     width: 100vw;
-    height: 20rem;
+    height: 25rem;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -16,15 +20,19 @@
 }
 
 .footer-container {
+    background-image: none !important;
     flex-direction: row;
     justify-content: center;
         justify-items: center;
         width: 100%;
         display: grid;
             grid-template-columns: repeat(3, 1fr);
+            position: relative;
+            top: 30%;
 }
 
 .menu-header{
+    background-image: none !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +40,12 @@
     gap: 10%;
 }
 
+.menu-header p {
+    background-image: none !important;
+}
+
 .logo-footer {
+    background-image: none !important;
     display: flex;
         flex-direction: row;
         justify-content: center;
@@ -40,9 +53,13 @@
     width: 15rem;
 }
 .call-to-action{
-
+background-image: none !important;
     display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+}
+
+.call-to-action button {
+    background-image: none !important;
 }
