@@ -1,11 +1,11 @@
 import React from "react";
 import "../style/contact.css";
-
+import Map from "../components/Map";
 
 function Contact() {
   return (
     <div className="contact" id="contact">
-      Contact
+      <Map/>
     </div>
   );
 }

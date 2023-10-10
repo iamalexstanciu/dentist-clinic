@@ -89,8 +89,8 @@ function Home() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                 clipRule="evenodd"
                   d="M40.312 1.37244C35.3292 3.50723 28.1378 3.50722 23.155 1.37243C19.1065 -0.362067 14.5781 -0.522914 10.3997 1.2946C1.58197 5.13011 -2.37295 16.3387 1.46488 26.4498C1.46573 26.4521 1.46569 26.4546 1.46476 26.4568L2.66241 29.061C6.71088 37.8641 9.76246 47.0923 11.7603 56.5735L13.6608 65.5927C14.3185 68.1855 16.6426 70 19.3059 70C22.1662 70 24.6034 67.9137 25.0575 65.0765L27.7368 48.3363C28.0523 46.3647 29.7459 44.9149 31.7336 44.9149C33.7212 44.9149 35.4149 46.3647 35.7304 48.3363L38.4096 65.0765C38.8637 67.9137 41.3009 70 44.1612 70C46.8245 70 49.1486 68.1855 49.8063 65.5927L51.7068 56.5735C53.7046 47.0923 56.7562 37.8641 60.8047 29.061L62.0023 26.4568C62.0014 26.4546 62.0014 26.4521 62.0022 26.4498C65.84 16.3387 61.8851 5.13011 53.0674 1.2946C48.889 -0.522933 44.3605 -0.362076 40.312 1.37244Z"
                   fill="url(#paint0_linear_6_141)"
                 />
@@ -102,8 +102,8 @@ function Home() {
                     x2="46.6669"
                     y2="67.2"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#F0F6F9" />
-                    <stop offset="1" stop-color="#CDDFF2" />
+                    <stop stopColor="#F0F6F9" />
+                    <stop offset="1" stopColor="#CDDFF2" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -153,8 +153,8 @@ function Home() {
                     x2="11.3421"
                     y2="21.55"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_23_70"
@@ -163,8 +163,8 @@ function Home() {
                     x2="11.3421"
                     y2="21.55"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -214,8 +214,8 @@ function Home() {
                     x2="7.23684"
                     y2="13.55"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_23_73"
@@ -224,8 +224,8 @@ function Home() {
                     x2="7.23684"
                     y2="13.55"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -244,8 +244,8 @@ function Home() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                 clipRule="evenodd"
                   d="M40.312 1.37244C35.3292 3.50723 28.1378 3.50722 23.155 1.37243C19.1065 -0.362067 14.5781 -0.522914 10.3997 1.2946C1.582 5.13011 -2.37292 16.3387 1.46491 26.4498C1.46576 26.4521 1.46572 26.4546 1.46479 26.4568L2.66244 29.061C6.71091 37.8641 9.76249 47.0923 11.7603 56.5735L13.6608 65.5927C14.3185 68.1855 16.6427 70 19.3059 70C22.1662 70 24.6034 67.9137 25.0575 65.0765L27.7368 48.3363C28.0523 46.3647 29.746 44.9149 31.7336 44.9149C33.7213 44.9149 35.4149 46.3647 35.7304 48.3363L38.4096 65.0765C38.8637 67.9137 41.3009 70 44.1613 70C46.8245 70 49.1486 68.1855 49.8063 65.5927L51.7068 56.5735C53.7047 47.0923 56.7562 37.8641 60.8047 29.061L62.0024 26.4568C62.0014 26.4546 62.0014 26.4521 62.0022 26.4498C65.8401 16.3387 61.8852 5.13011 53.0674 1.2946C48.889 -0.522933 44.3605 -0.362076 40.312 1.37244Z"
                   fill="url(#paint0_linear_23_79)"
                 />
@@ -257,8 +257,8 @@ function Home() {
                     x2="46.6669"
                     y2="67.2"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#F0F6F9" />
-                    <stop offset="1" stop-color="#CDDFF2" />
+                    <stop stopColor="#F0F6F9" />
+                    <stop offset="1" stopColor="#CDDFF2" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -279,8 +279,8 @@ function Home() {
                   width="64"
                   height="70">
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                   clipRule="evenodd"
                     d="M40.312 1.37244C35.3292 3.50723 28.1378 3.50722 23.155 1.37243C19.1065 -0.362067 14.5781 -0.522914 10.3997 1.2946C1.582 5.13011 -2.37292 16.3387 1.46491 26.4498C1.46576 26.4521 1.46572 26.4546 1.46479 26.4568L2.66244 29.061C6.71091 37.8641 9.76249 47.0923 11.7603 56.5735L13.6608 65.5927C14.3185 68.1855 16.6427 70 19.3059 70C22.1662 70 24.6034 67.9137 25.0575 65.0765L27.7368 48.3363C28.0523 46.3647 29.746 44.9149 31.7336 44.9149C33.7213 44.9149 35.4149 46.3647 35.7304 48.3363L38.4096 65.0765C38.8637 67.9137 41.3009 70 44.1613 70C46.8245 70 49.1486 68.1855 49.8063 65.5927L51.7068 56.5735C53.7047 47.0923 56.7562 37.8641 60.8047 29.061L62.0024 26.4568C62.0014 26.4546 62.0014 26.4521 62.0022 26.4498C65.8401 16.3387 61.8852 5.13011 53.0674 1.2946C48.889 -0.522933 44.3605 -0.362076 40.312 1.37244Z"
                     fill="url(#paint0_linear_30_181)"
                   />
@@ -299,8 +299,8 @@ function Home() {
                     x2="46.6669"
                     y2="67.2"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#F0F6F9" />
-                    <stop offset="1" stop-color="#CDDFF2" />
+                    <stop stopColor="#F0F6F9" />
+                    <stop offset="1" stopColor="#CDDFF2" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_30_181"
@@ -309,8 +309,8 @@ function Home() {
                     x2="34.926"
                     y2="37.8359"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#E6F0F8" />
-                    <stop offset="1" stop-color="#6F93BA" />
+                    <stop stopColor="#E6F0F8" />
+                    <stop offset="1" stopColor="#6F93BA" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -344,8 +344,8 @@ function Home() {
           y2="39.6577"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0F6F9" />
-          <stop offset="1" stop-color="#CDDFF2" />
+          <stop stopColor="#F0F6F9" />
+          <stop offset="1" stopColor="#CDDFF2" />
         </linearGradient>
       </defs>
     </svg>
@@ -371,8 +371,8 @@ function Home() {
           y2="49.2922"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0F6F9" />
-          <stop offset="1" stop-color="#CDDFF2" />
+          <stop stopColor="#F0F6F9" />
+          <stop offset="1" stopColor="#CDDFF2" />
         </linearGradient>
       </defs>
     </svg>
@@ -386,8 +386,8 @@ function Home() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+       clipRule="evenodd"
         d="M0.939884 1.58367C1.7221 0.445903 3.27855 0.157671 4.41631 0.939884C8.33777 3.63589 21.2402 9.49999 39.4675 9.49999C57.6966 9.49999 69.9393 3.63622 73.5124 0.990754C74.6221 0.169171 76.1876 0.402712 77.0092 1.51238C77.8308 2.62205 77.5973 4.18764 76.4876 5.00922C71.9568 8.36375 58.641 14.5 39.4675 14.5C20.2922 14.5 6.38948 8.36409 1.58367 5.06009C0.445903 4.27788 0.157671 2.72143 0.939884 1.58367Z"
         fill="url(#paint0_linear_6_195)"
       />
@@ -400,8 +400,8 @@ function Home() {
           y2="16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E3E7F6" />
-          <stop offset="1" stop-color="#C7CCDF" />
+          <stop stopColor="#E3E7F6" />
+          <stop offset="1" stopColor="#C7CCDF" />
         </linearGradient>
       </defs>
     </svg>
@@ -415,15 +415,15 @@ function Home() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+       clipRule="evenodd"
         d="M77.0601 1.58373C76.2779 0.445964 74.7215 0.157732 73.5837 0.939945C69.6622 3.63595 56.7598 9.50005 38.5325 9.50005C20.3033 9.50005 8.06072 3.63628 4.48762 0.990815C3.37794 0.169232 1.81235 0.402773 0.990774 1.51244C0.169187 2.62211 0.40273 4.1877 1.5124 5.00929C6.0432 8.36382 19.359 14.5001 38.5325 14.5001C57.7077 14.5001 71.6105 8.36415 76.4163 5.06015C77.5541 4.27794 77.8423 2.72149 77.0601 1.58373Z"
         fill="url(#paint0_radial_22_55)"
         fill-opacity="0.3"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+       clipRule="evenodd"
         d="M77.0601 1.58373C76.2779 0.445964 74.7215 0.157732 73.5837 0.939945C69.6622 3.63595 56.7598 9.50005 38.5325 9.50005C20.3033 9.50005 8.06072 3.63628 4.48762 0.990815C3.37794 0.169232 1.81235 0.402773 0.990774 1.51244C0.169187 2.62211 0.40273 4.1877 1.5124 5.00929C6.0432 8.36382 19.359 14.5001 38.5325 14.5001C57.7077 14.5001 71.6105 8.36415 76.4163 5.06015C77.5541 4.27794 77.8423 2.72149 77.0601 1.58373Z"
         fill="url(#paint1_radial_22_55)"
         fill-opacity="0.3"
@@ -437,8 +437,8 @@ function Home() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(55 11.0001) rotate(177.879) scale(13.5093 74.3)"
         >
-          <stop stop-color="#ADB6DA" />
-          <stop offset="1" stop-color="#626D97" stop-opacity="0" />
+          <stop stopColor="#ADB6DA" />
+          <stop offset="1" stopColor="#626D97" stop-opacity="0" />
         </radialGradient>
         <radialGradient
           id="paint1_radial_22_55"
@@ -448,8 +448,8 @@ function Home() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(55 11.0001) rotate(177.879) scale(13.5093 74.3)"
         >
-          <stop stop-color="#ADB6DA" />
-          <stop offset="1" stop-color="#626D97" stop-opacity="0" />
+          <stop stopColor="#ADB6DA" />
+          <stop offset="1" stopColor="#626D97" stop-opacity="0" />
         </radialGradient>
       </defs>
     </svg>
@@ -685,8 +685,8 @@ function Home() {
           y2="14.5171"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <radialGradient
           id="paint1_radial_9_91"
@@ -696,8 +696,8 @@ function Home() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(13.9542 -2.97907) rotate(131.532) scale(15.0005 15.5826)"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stop-opacity="0" />
         </radialGradient>
         <linearGradient
           id="paint2_linear_9_91"
@@ -707,9 +707,9 @@ function Home() {
           y2="6.82838"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_9_91"
@@ -719,9 +719,9 @@ function Home() {
           y2="16.8284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_9_91"
@@ -731,9 +731,9 @@ function Home() {
           y2="16.8284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_9_91"
@@ -743,9 +743,9 @@ function Home() {
           y2="6.82838"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
       </defs>
     </svg>
@@ -989,8 +989,8 @@ function Home() {
           y2="14.5171"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <radialGradient
           id="paint1_radial_9_106"
@@ -1000,8 +1000,8 @@ function Home() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(13.9542 -2.9791) rotate(131.532) scale(15.0005 15.5826)"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stop-opacity="0" />
         </radialGradient>
         <linearGradient
           id="paint2_linear_9_106"
@@ -1011,9 +1011,9 @@ function Home() {
           y2="6.82838"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_9_106"
@@ -1023,9 +1023,9 @@ function Home() {
           y2="16.8284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_9_106"
@@ -1035,9 +1035,9 @@ function Home() {
           y2="16.8284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_9_106"
@@ -1047,9 +1047,9 @@ function Home() {
           y2="6.82838"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F2F5FF" />
-          <stop offset="0.151042" stop-color="#F8F9FE" />
-          <stop offset="1" stop-color="#D6DBF1" />
+          <stop stopColor="#F2F5FF" />
+          <stop offset="0.151042" stopColor="#F8F9FE" />
+          <stop offset="1" stopColor="#D6DBF1" />
         </linearGradient>
       </defs>
     </svg>
