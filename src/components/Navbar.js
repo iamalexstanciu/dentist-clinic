@@ -118,21 +118,21 @@ function Navbar() {
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("home")}>
           {" "}
-          Home
+          Acasa
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("services")}>
           {" "}
-          Services
+          Servicii
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("about")}>
           {" "}
-          About
+          Despre
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
