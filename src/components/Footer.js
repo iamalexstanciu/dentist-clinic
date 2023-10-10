@@ -13,24 +13,31 @@ const Footer = () => {
     }
   };
   return (
-    <div className="footer-69">
-      <div className="footer-container">
-        <img
-          className="logo-footer"
-          src={LogoFooter}
-          alt="dentist stomatolog Catalin Teodor"
-        />
-        <div className="menu-header">
-          <p onClick={() => scrollToSection("home")}>Acasa</p>
-          <p onClick={() => scrollToSection("services")}>Servicii</p>
-          <p onClick={() => scrollToSection("about")}>Despre</p>
-          <p onClick={() => scrollToSection("contact")}>Contact</p>
-        </div>
-        <div className="call-to-action">
-         Pentru urgente! <button className="button-contact-footer">Contact  </button>
+    <>
+      <div className="footer-69">
+        <div className="footer-container">
+          <img
+            className="logo-footer"
+            src={LogoFooter}
+            alt="dentist stomatolog Catalin Teodor"
+          />
+          <div className="menu-header">
+            <p onClick={() => scrollToSection("home")}>Acasa</p>
+            <p onClick={() => scrollToSection("services")}>Servicii</p>
+            <p onClick={() => scrollToSection("about")}>Despre</p>
+            <p onClick={() => scrollToSection("contact")}>Contact</p>
+          </div>
+          <div className="call-to-action">
+            Pentru urgente!{" "}
+            <button className="button-contact-footer">Contact </button>
+          </div>
         </div>
       </div>
-    </div>
+      <p className="our-agency">
+        {" "}
+        builded by <a href="https://www.upvisionmedia.com">upvisionMedia.com</a>
+      </p>
+    </>
   );
 };
 
