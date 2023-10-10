@@ -61,6 +61,7 @@ font-family: 'Exo',
  @media (max-width: 768px) {
      .about {
          grid-template-columns: 1fr;
+        height: 180vh;
      }
 
      .dentist-image {

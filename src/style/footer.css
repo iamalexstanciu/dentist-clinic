@@ -125,3 +125,36 @@ transition: all 0.3s ease-in-out;
         background-position: right bottom;
     }
 }
+
+/* Responsive styles for tablet and mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 5%;
+        top: 5%;
+        /* Change to single column layout */
+    }
+
+    .menu-header {
+        flex-direction: column;
+        /* Stack menu items vertically */
+        gap: 5%;
+        /* Reduce the gap between menu items */
+    }
+
+    .logo-footer {
+        margin-top: 20px;
+        /* Add spacing between the logo and menu */
+    }
+
+    .call-to-action {
+        flex-direction: column;
+        gap: 2rem;
+        /* Stack call-to-action items vertically */
+    }
+
+    .button-contact-footer {
+        margin-left: 0;
+        /* Remove left margin on the button */
+    }
+}
