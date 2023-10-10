@@ -4,15 +4,18 @@ import styled from "styled-components";
 
 const NavContainer = styled(motion.div)`
   position: fixed;
-  top: ${(props) => (props.click ? "0" : `-3rem`)};
+  top: ${(props) => (props.click ? "0" : `-3.4rem`)};
   transition: all 0.3s ease;
   background-color: #f6f4eb;
   color: #4682a9;
   z-index: 100;
   width: 100%;
   display: flex;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   justify-content: center;
   align-items: center;
+  object-position: center;
 
   @media (max-width: 40em) {
     top: ${(props) => (props.click ? "0" : `calc(-50vh - 4rem)`)};
@@ -64,11 +67,11 @@ function Navbar() {
 
   const MenuBtn = styled.li`
     width: 20rem;
-    height: 3rem;
+    height: 3.2rem;
     border: none;
     outline: none;
-
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 
     background-color: #f6f4eb;
     color: #4682a9;
@@ -77,11 +80,12 @@ function Navbar() {
     left: 50%;
     transform: translateX(-50%);
 
-    font-weight: 600;
+    font-weight: 700;
 
     cursor: pointer;
 
     display: flex;
+    padding: 0.2%;
     justify-content: center;
     align-items: center;
 
