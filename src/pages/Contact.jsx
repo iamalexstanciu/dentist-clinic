@@ -68,7 +68,9 @@ function Contact() {
               alt="address cabinet piata rosetti"
               style={{ width: "5%" }}
             />
-            Email: cabinet.rosetti@catalinteodor.ro
+            <a onClick={() => (window.location = "mailto:yourmail@domain.com")}>
+              Email: cabinet.rosetti@catalinteodor.ro
+            </a>
           </p>
         </div>
       </div>
@@ -99,7 +101,7 @@ function Contact() {
             {" "}
             <img
               src={Location}
-              alt="address cabinet piata rosetti"
+              alt="address cabinet 1 decembrie"
               style={{ width: "5%" }}
             />{" "}
             Bvd. 1 Decembrie 1918, 15 Sector 3
@@ -114,7 +116,7 @@ function Contact() {
             }}>
             <img
               src={Phone}
-              alt="address cabinet piata rosetti"
+              alt="address cabinet 1 decembrie"
               style={{ width: "5%" }}
             />
             Telefon: +40 725 785 123
@@ -129,10 +131,12 @@ function Contact() {
             }}>
             <img
               src={Email}
-              alt="address cabinet piata rosetti"
+              alt="address cabinet 1 decembrie"
               style={{ width: "5%" }}
             />
-            Email: cabinet.1decembrie@catalinteodor.ro
+            <a onClick={() => (window.location = "mailto:yourmail@domain.com")}>
+              Email: cabinet.1decembrie@catalinteodor.ro
+            </a>
           </p>
         </div>
       </div>
