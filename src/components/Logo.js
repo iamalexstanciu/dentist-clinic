@@ -12,8 +12,10 @@ const Container = styled.div`
     z-index: 5;
   }
 
-  @media (max-width: 768px) {
-    width: 20rem;
+  @media (max-width: 1400px) {
+    img{
+      width: 20%;
+    }
   }
 `;
 

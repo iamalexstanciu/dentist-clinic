@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.cdnfonts.com/css/orbiter-fbs-trial');
 
 .footer-69,
 .footer-69 * {
@@ -10,7 +10,6 @@
 }
 
 .footer-69 {
-    width: 100vw;
     height: 25rem;
     position: relative;
     display: flex;
@@ -42,6 +41,7 @@
 
 .menu-header p {
     background-image: none !important;
+    font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 .logo-footer {
@@ -59,6 +59,7 @@ background-image: none !important;
         justify-content: center;
         align-items: center;
         width: 100%;
+        font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 .button-contact-footer {
@@ -69,8 +70,7 @@ background: linear-gradient(to bottom, #32adeb, #91C8E4);
 /* Gradient background */
 color: rgb(0, 0, 0);
 /* White text color */
-font-family: "Segoe UI",
-sans-serif;
+font-family: 'Orbiter FBS Trial', sans-serif;
 /* Stylish and legible font */
 font-weight: bold;
 font-size: 18px;
@@ -107,7 +107,7 @@ transition: all 0.3s ease-in-out;
 .our-agency{
     position: relative;
     margin: 0 auto;
-    right: -42%;
+    width: fit-content;
     text-decoration: none;
 font-size: 15px;
 }
@@ -116,6 +116,8 @@ font-size: 15px;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    color: #91C8E4;
+    font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 /* Shimmer animation */
@@ -140,35 +142,34 @@ font-size: 15px;
     }
 }
 
-/* Responsive styles for tablet and mobile */
+
+
 @media (max-width: 768px) {
     .footer-container {
         grid-template-columns: 1fr;
         gap: 5%;
         top: 5%;
-        /* Change to single column layout */
     }
 
     .menu-header {
         flex-direction: column;
-        /* Stack menu items vertically */
         gap: 5%;
-        /* Reduce the gap between menu items */
     }
 
     .logo-footer {
         margin-top: 20px;
-        /* Add spacing between the logo and menu */
     }
 
     .call-to-action {
         flex-direction: column;
         gap: 2rem;
-        /* Stack call-to-action items vertically */
     }
 
     .button-contact-footer {
         margin-left: 0;
-        /* Remove left margin on the button */
+    }
+
+    .our-agency{
+        padding-top: 10%;
     }
 }

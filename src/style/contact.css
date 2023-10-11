@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/orbiter-fbs-trial');
+
 .contact {
 box-sizing: border-box;
 height: 100vh;
@@ -5,6 +7,7 @@ display: grid;
 grid-template-columns: repeat(2, 50%);
 align-items: center;
 justify-items: center;
+font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 .first-map,
@@ -29,13 +32,24 @@ justify-content: flex-start;
 align-items: center;
 }
 
-/* Media queries for tablet and mobile responsiveness */
+@media (max-width: 1400px) {
+.first-map,
+    .second-map {
+        width: 120%;
+    }
+
+    .details-first-map,
+    .details-second-map {
+        font-size: 18px;
+    }
+
+}
+
+
 @media (max-width: 768px) {
     .contact {
         padding: 10px;
-        /* Adjust padding for smaller screens */
         height: 150vh;
-            /* Adjust padding for smaller screens */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -45,16 +59,13 @@ align-items: center;
     .first-map,
     .second-map {
         width: 70%;
-        /* Use full width for tablet */
     }
 }
 
-/* Additional media query for smaller mobile screens if needed */
 @media (max-width: 480px) {
     .contact {
         padding: 5px;
         height: 150vh;
-        /* Adjust padding for smaller screens */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -64,6 +75,5 @@ align-items: center;
     .first-map,
     .second-map {
         width: 50%;
-        /* Use full width for smaller mobile screens */
     }
 }
