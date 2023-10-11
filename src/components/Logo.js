@@ -13,8 +13,23 @@ const Container = styled.div`
   }
 
   @media (max-width: 1400px) {
-    img{
-      width: 20%;
+    img {
+      width: 30%;
+      top: 5rem;
+    }
+  }
+  @media (max-width: 480px) {
+    img {
+      width: 40%;
+      top: 5rem;
+      left: 2rem;
+    }
+  }
+  @media (max-width: 360px) {
+    img {
+      width: 60%;
+      top: 5rem;
+      left: 4.5rem;
     }
   }
 `;
@@ -22,19 +37,19 @@ const Container = styled.div`
 const Logo = () => {
   return (
     <Container>
-        <motion.path
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}>
-          <img src={LogoHeader} alt="catalin teodor dentist" />
-        </motion.path>
+      <motion.path
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 2,
+          ease: "easeInOut",
+        }}>
+        <img src={LogoHeader} alt="catalin teodor dentist" />
+      </motion.path>
     </Container>
   );
 };

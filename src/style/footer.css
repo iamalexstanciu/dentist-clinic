@@ -174,3 +174,11 @@ margin-left: 0;
 padding-top: 10%;
 }
 }
+
+@media (max-width: 360px){
+
+    .our-agency {
+            padding-top: 20%;
+            padding-bottom: 5%;
+        }
+}

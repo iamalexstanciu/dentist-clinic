@@ -55,7 +55,7 @@ align-items: center;
 @media (max-width: 768px) {
     .contact {
         padding: 10px;
-        height: 150vh;
+        height: 200vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -81,4 +81,35 @@ align-items: center;
     .second-map {
         width: 100%;
     }
+}
+
+@media (max-width: 360px) {
+    .contact {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .first-map,
+    .second-map {
+        width: 100%;
+    }
+
+    .details-first-map p,
+        .details-second-map p,
+                .details-first-map h5,
+                .details-second-map h5,
+                                .details-first-map h3,
+                                .details-second-map h3
+    
+    {
+        font-size: 12px ;
+        width: 100%;
+        height: auto;
+    }
+
+
+
 }
