@@ -61,12 +61,20 @@ font-family: 'Exo',
 
  @media (max-width: 1400px) {
 .dentist-image {
-        width: 100%;
+        width: 80%;
         margin: 18% auto;
         margin-bottom: 20px;
     }
 
  }
+  @media (max-width: 950px) {
+      .dentist-image {
+          width: 100%;
+          margin: 18% auto;
+          margin-bottom: 20px;
+      }
+
+  }
  @media (max-width: 768px) {
      .about {
          grid-template-columns: 1fr;
