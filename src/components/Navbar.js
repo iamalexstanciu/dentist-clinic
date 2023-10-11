@@ -17,9 +17,6 @@ const NavContainer = styled(motion.div)`
   align-items: center;
   object-position: center;
 
-  @media (max-width: 40em) {
-    top: ${(props) => (props.click ? "0" : `calc(-50vh - 4rem)`)};
-  }
   @media (max-width: 550px) {
     top: ${(props) => (props.click ? "0" : `calc(-50vh - 5.5rem)`)};
   }
@@ -87,7 +84,7 @@ function Navbar() {
     cursor: pointer;
 
     display: flex;
-    padding: 0.2%;
+    padding-top: 0.7%;
     justify-content: center;
     align-items: center;
 
@@ -121,28 +118,32 @@ function Navbar() {
           Menu
         </MenuBtn>
         <Item
-          whileHover={{ scale: 1.1, y: -5 }}
+          whileHover={{
+            scale: 1.5,
+            y: 3,
+            fontWeight: "bold",
+          }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("home")}>
           {" "}
           Acasa
         </Item>
         <Item
-          whileHover={{ scale: 1.1, y: -5 }}
+          whileHover={{ scale: 1.5, y: 3, fontWeight: "bold" }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("services")}>
           {" "}
           Servicii
         </Item>
         <Item
-          whileHover={{ scale: 1.1, y: -5 }}
+          whileHover={{ scale: 1.5, y: 3, fontWeight: "bold" }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("about")}>
           {" "}
           Despre
         </Item>
         <Item
-          whileHover={{ scale: 1.1, y: -5 }}
+          whileHover={{ scale: 1.5, y: 3, fontWeight: "bold" }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => scrollToSection("contact")}>
           {" "}
