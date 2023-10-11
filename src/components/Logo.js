@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 const Container = styled.div`
   img {
     position: absolute;
-    top: 2rem;
-    left: 2rem;
+    top: 5%;
+    left: 6rem;
     width: 12%;
     z-index: 5;
   }
