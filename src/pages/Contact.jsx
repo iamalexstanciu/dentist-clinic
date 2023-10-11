@@ -47,6 +47,8 @@ function Contact() {
               justifyContent: "center",
               alignItems: "center",
               gap: "5%",
+
+              width: "fit-content",
             }}>
             <img
               src={Phone}
@@ -62,6 +64,7 @@ function Contact() {
               justifyContent: "center",
               alignItems: "center",
               gap: "5%",
+              width: "fit-content",
             }}>
             <img
               src={Email}
@@ -96,6 +99,8 @@ function Contact() {
               flexDirection: "row",
               justifyContent: "center",
               alignItems: "center",
+
+              width: "fit-content",
               gap: "5%",
             }}>
             {" "}
@@ -112,6 +117,8 @@ function Contact() {
               flexDirection: "row",
               justifyContent: "center",
               alignItems: "center",
+
+              width: "fit-content",
               gap: "5%",
             }}>
             <img

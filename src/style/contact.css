@@ -43,6 +43,12 @@ align-items: center;
         font-size: 18px;
     }
 
+    .first-map,
+    .second-map
+    {
+        width: 100%;
+    }
+
 }
 
 

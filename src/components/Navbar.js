@@ -20,6 +20,9 @@ const NavContainer = styled(motion.div)`
   @media (max-width: 40em) {
     top: ${(props) => (props.click ? "0" : `calc(-50vh - 4rem)`)};
   }
+  @media (max-width: 768px) {
+    top: ${(props) => (props.click ? "0" : `calc(-50vh - 5.7rem)`)};
+  }
 `;
 
 const MenuItems = styled(motion.ul)`
