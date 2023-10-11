@@ -262,7 +262,7 @@ overflow: visible;
 
 .text-homepage {
   width: 40%;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .subsection {
@@ -324,7 +324,7 @@ overflow: visible;
 
   .text-homepage {
     width: 40%;
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .subsection {
@@ -365,7 +365,8 @@ overflow: visible;
 }
 
   .text-homepage {
-    font-size: 45px;
+    top: 25%;
+    font-size: 38px;
     width: 50%;
 }
   .subsection{
@@ -382,7 +383,13 @@ overflow: visible;
 height: auto;
 }
 
+.image-right{
+  top: 20%;
+}
 
+.image-right2 {
+  top: 25%;
+}
   .image-right3{
 
     display: none;
