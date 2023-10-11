@@ -2,69 +2,69 @@
 
 .footer-69,
 .footer-69 * {
-    box-sizing: border-box;
-    background-image: url("../assets/wave.png");
-    background-repeat: no-repeat;
-    background-position: top top;
-    background-size: cover;
+box-sizing: border-box;
+background-image: url("../assets/wave.png");
+background-repeat: no-repeat;
+background-position: top top;
+background-size: cover;
 }
 
 .footer-69 {
-    height: 25rem;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+height: 25rem;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
 .footer-container {
-    background-image: none !important;
-    flex-direction: row;
-    justify-content: center;
-        justify-items: center;
-        width: 100%;
-        display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            position: relative;
-            top: 30%;
+background-image: none !important;
+flex-direction: row;
+justify-content: center;
+justify-items: center;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+position: relative;
+top: 30%;
 }
 
 .menu-header{
-    background-image: none !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-        align-items: center;
-    gap: 10%;
+background-image: none !important;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10%;
 }
 
 .menu-header p {
-    background-image: none !important;
-    font-family: 'Orbiter FBS Trial', sans-serif;
+background-image: none !important;
+font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 .logo-footer {
-    background-image: none !important;
-    display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    width: 15rem;
+background-image: none !important;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 15rem;
 }
 .call-to-action{
 background-image: none !important;
-    display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        font-family: 'Orbiter FBS Trial', sans-serif;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 .button-contact-footer {
-    
-    position: relative;
+
+position: relative;
 display: inline-block;
 background: linear-gradient(to bottom, #32adeb, #91C8E4);
 /* Gradient background */
@@ -93,83 +93,84 @@ transition: all 0.3s ease-in-out;
 
 /* Hover animation */
 .button-contact-footer:hover {
-    background: linear-gradient(to bottom, #ffffff, #ffffff);
-    animation: button-particles 1s ease-in-out infinite;
-    transform: translateY(-4px);
+background: linear-gradient(to bottom, #ffffff, #ffffff);
+animation: button-particles 1s ease-in-out infinite;
+transform: translateY(-4px);
 }
 
 /* Click animation */
 .button-contact-footer:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+transform: scale(0.95);
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .our-agency{
-    position: relative;
-    margin: 0 auto;
-    width: fit-content;
-    text-decoration: none;
+position: relative;
+margin: 0 auto;
+width: fit-content;
+text-decoration: none;
 font-size: 15px;
+margin-bottom: 1%;
 }
 
 .our-agency a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: #91C8E4;
-    font-family: 'Orbiter FBS Trial', sans-serif;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+color: #91C8E4;
+font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
 /* Shimmer animation */
 @keyframes button-shimmer {
-    0% {
-        background-position: left top;
-    }
+0% {
+background-position: left top;
+}
 
-    100% {
-        background-position: right bottom;
-    }
+100% {
+background-position: right bottom;
+}
 }
 
 /* Particle animation */
 @keyframes button-particles {
-    0% {
-        background-position: left top;
-    }
+0% {
+background-position: left top;
+}
 
-    100% {
-        background-position: right bottom;
-    }
+100% {
+background-position: right bottom;
+}
 }
 
 
 
 @media (max-width: 768px) {
-    .footer-container {
-        grid-template-columns: 1fr;
-        gap: 5%;
-        top: 5%;
-    }
+.footer-container {
+grid-template-columns: 1fr;
+gap: 5%;
+top: 5%;
+}
 
-    .menu-header {
-        flex-direction: column;
-        gap: 5%;
-    }
+.menu-header {
+flex-direction: column;
+gap: 5%;
+}
 
-    .logo-footer {
-        margin-top: 20px;
-    }
+.logo-footer {
+margin-top: 20px;
+}
 
-    .call-to-action {
-        flex-direction: column;
-        gap: 2rem;
-    }
+.call-to-action {
+flex-direction: column;
+gap: 2rem;
+}
 
-    .button-contact-footer {
-        margin-left: 0;
-    }
+.button-contact-footer {
+margin-left: 0;
+}
 
-    .our-agency{
-        padding-top: 10%;
-    }
+.our-agency{
+padding-top: 10%;
+}
 }
