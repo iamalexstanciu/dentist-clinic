@@ -14,8 +14,9 @@ const Container = styled.div`
 
   @media (max-width: 1400px) {
     img {
-      width: 30%;
-      top: 5rem;
+      width: 25%;
+      top: 4rem;
+      left: 3.6rem;
     }
   }
   @media (max-width: 480px) {
