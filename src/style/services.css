@@ -35,12 +35,17 @@ width: 20rem;
 min-height: 15rem;
 font-family: 'Exo',
         sans-serif;
+        transition: transform 0.3s;
 }
 
 .widget-services:hover {
-    background-color:#39a3d8;
-    color: #fff;
+    transform: scale(1.05);
+        /* Enlarge the widget on hover */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        /* Add a subtle box shadow on hover */
+        border: 2px solid #50b7eb;
 }
+
 
 .services-title-container {
 text-align: left;
