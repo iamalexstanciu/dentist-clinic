@@ -389,15 +389,15 @@ height: auto;
   }
 
   .text-homepage {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .subsection {
-    width: 90vw;
-    left: 5%;
+    width: 90%;
+    left: 4.5%;
   }
 
   .subsection a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }

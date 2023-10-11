@@ -70,16 +70,15 @@ align-items: center;
 
 @media (max-width: 480px) {
     .contact {
-        padding: 5px;
-        height: 150vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
 
     .first-map,
     .second-map {
-        width: 50%;
+        width: 120%;
     }
 }

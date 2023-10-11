@@ -147,22 +147,7 @@ width: 30%;
 /* Responsive adjustments for mobile */
 @media (max-width: 480px) {
 .services{
-    height: 250vh;
+    height: 300vh;
 }
 
-    .right-side-services {
-        display: flex;
-        flex-direction: column;
-        grid-column-gap: 3%;
-        grid-row-gap: 3%;
-        left: 0%;
-    }
-
-    .widget-services {
-        width: 100%;
-    }
-
-    .services-title-container {
-        font-size: 20px;
-    }
 }
