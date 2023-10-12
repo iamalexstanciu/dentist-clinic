@@ -287,24 +287,23 @@ overflow: visible;
   }
 
   .image-right {
-    top: 20%;
+    top: 15%;
   }
 
   .image-right2 {
-    top: 30%;
+    top: 10%;
   }
 
   .image-right3 {
-    top: 25%;
+    top: 30%;
   }
 
   .text-homepage {
-    width: 40%;
-    font-size: 45px;
+    top: 30%;
   }
 
   .subsection {
-    width: 75%;
+    width: 64%;
   }
 
 }

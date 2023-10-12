@@ -58,7 +58,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: 25rem;
 font-family: 'Orbiter FBS Trial', sans-serif;
 }
 
@@ -142,7 +142,6 @@ background-position: left top;
 background-position: right bottom;
 }
 }
-
 
 
 @media (max-width: 768px) {
