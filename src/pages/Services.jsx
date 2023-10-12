@@ -6,11 +6,13 @@ import Orthodontic from "../assets/services/orthodontic.svg";
 import Surgery from "../assets/services/surgery.svg";
 import Cosmetic from "../assets/services/cosmetic.svg";
 import Implant from "../assets/services/implant.svg";
+import { useParallax } from "react-scroll-parallax";
 
 function Services() {
+  const { ref: ref } = useParallax({ speed: 30 });
   return (
     <div className="services" id="services">
-      <div className="services-title-container">
+      <div className="services-title-container" ref={ref}>
         <title className="services-title">
           Soluții complete pentru sănătatea orală.
         </title>

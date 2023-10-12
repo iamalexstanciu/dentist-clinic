@@ -20,8 +20,9 @@ const Widget = styled.div`
 
 function Home() {
   const { ref: ref } = useParallax({ speed: 30 });
-  const { ref: ref2 } = useParallax({ speed: 50 });
-  const { ref: ref3 } = useParallax({ speed: 10 });
+  const { ref: ref2 } = useParallax({ speed: 20 });
+  const { ref: ref4 } = useParallax({ speed: 22 });
+  const { ref: ref5 } = useParallax({ speed: 24 });
 
   return (
     <div className="section" id="home">
@@ -48,13 +49,13 @@ function Home() {
           <img
             className="image-right2"
             src={Tooth1}
-            ref={ref2}
+            ref={ref4}
             alt="catalin teodor dentist"
           />
           <img
             className="image-right3"
             src={Tooth2}
-            ref={ref2}
+            ref={ref5}
             alt="catalin teodor dentist"
           />
         </motion.path>
@@ -83,7 +84,7 @@ function Home() {
           </span>
         </div>
       </motion.path>
-      <div className="subsection" ref={ref3}>
+      <div className="subsection">
         <Widget className="widget widget-1">
           <a href="#0" className="learn-more">
             Grijă Preventivă
