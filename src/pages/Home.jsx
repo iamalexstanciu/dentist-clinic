@@ -19,10 +19,10 @@ const Widget = styled.div`
 `;
 
 function Home() {
-  const { ref: ref } = useParallax({ speed: 20 });
-  const { ref: ref2 } = useParallax({ speed: 20 });
-  const { ref: ref4 } = useParallax({ speed: 22 });
-  const { ref: ref5 } = useParallax({ speed: 24 });
+  const { ref: textHome } = useParallax({ speed: 20 });
+  const { ref: image1 } = useParallax({ speed: 20 });
+  const { ref: image2 } = useParallax({ speed: 22 });
+  const { ref: image3 } = useParallax({ speed: 24 });
 
   return (
     <div className="section" id="home">
@@ -43,19 +43,19 @@ function Home() {
           <img
             className="image-right"
             src={Tooth}
-            ref={ref2}
+            ref={image1}
             alt="catalin teodor dentist"
           />
           <img
             className="image-right2"
             src={Tooth1}
-            ref={ref4}
+            ref={image2}
             alt="catalin teodor dentist"
           />
           <img
             className="image-right3"
             src={Tooth2}
-            ref={ref5}
+            ref={image3}
             alt="catalin teodor dentist"
           />
         </motion.path>
@@ -71,7 +71,7 @@ function Home() {
           duration: 3,
           ease: "linear",
         }}>
-        <div className="text-homepage" ref={ref}>
+        <div className="text-homepage" ref={textHome}>
           <span>
             <span>
               Zâmbiți cu Încredere:

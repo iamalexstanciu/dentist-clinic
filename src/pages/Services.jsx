@@ -10,11 +10,11 @@ import { useParallax } from "react-scroll-parallax";
 import { Parallax } from "react-scroll-parallax";
 
 function Services() {
-  const { ref: ref } = useParallax({ speed: 30 });
+  const { ref: servicesContainer } = useParallax({ speed: 30 });
 
   return (
     <div className="services" id="services">
-      <div className="services-title-container" ref={ref}>
+      <div className="services-title-container" ref={servicesContainer}>
         <title className="services-title">
           Soluții complete pentru sănătatea orală.
         </title>

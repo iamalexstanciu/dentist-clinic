@@ -6,12 +6,12 @@ import Email from "../assets/email.png";
 import { useParallax } from "react-scroll-parallax";
 
 function Contact() {
-  const { ref: ref } = useParallax({ speed: 50 });
-  const { ref: ref2 } = useParallax({ speed: 50 });
+  const { ref: firstMap } = useParallax({ speed: 50 });
+  const { ref: secondMap } = useParallax({ speed: 50 });
 
   return (
     <div className="contact" id="contact">
-      <div className="first-map" ref={ref}>
+      <div className="first-map" ref={firstMap}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.84701126186!2d26.103876475763567!3d44.43630035143247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff385abb854d%3A0x2a6407f54fa64636!2sPia%C8%9Ba%20Rosetti%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sen!2sro!4v1696942352341!5m2!1sen!2sro"
           style={{
@@ -81,7 +81,7 @@ function Contact() {
           </p>
         </div>
       </div>
-      <div className="second-map" ref={ref2}>
+      <div className="second-map" ref={secondMap}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.483145532915!2d26.17405367576289!3d44.42325070228799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1feaf27b1e2d9%3A0x1a75a1c7583d513c!2sBulevardul%201%20Decembrie%201918%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1696942422025!5m2!1sen!2sro"
           style={{
