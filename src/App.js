@@ -24,8 +24,9 @@ function App() {
         <section id="contact">
           <Contact />
         </section>
+
+        <Footer />
       </ParallaxProvider>
-      <Footer />
     </>
   );
 }

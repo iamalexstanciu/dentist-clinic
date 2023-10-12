@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/footer.css";
 import LogoFooter from "../assets/logo.png";
+import { Parallax } from "react-scroll-parallax";
 
 const Footer = () => {
   const scrollToSection = (sectionId) => {
@@ -16,27 +17,42 @@ const Footer = () => {
     <>
       <div className="footer-69">
         <div className="footer-container">
-          <img
-            className="logo-footer"
-            src={LogoFooter}
-            alt="dentist stomatolog Catalin Teodor"
-          />
-          <div className="menu-header">
-            <p onClick={() => scrollToSection("home")}>Acasa</p>
-            <p onClick={() => scrollToSection("services")}>Servicii</p>
-            <p onClick={() => scrollToSection("about")}>Despre</p>
-            <p onClick={() => scrollToSection("contact")}>Contact</p>
-          </div>
-          <div className="call-to-action">
-            Pentru urgente!{" "}
-            <button className="button-contact-footer">Contact </button>
-          </div>
+          <Parallax
+            translateY={["-100px", "450px"]}
+            style={{ background: "none" }}>
+            <img
+              className="logo-footer"
+              src={LogoFooter}
+              alt="dentist stomatolog Catalin Teodor"
+            />
+          </Parallax>
+          <Parallax
+            translateY={["-100px", "450px"]}
+            style={{ background: "none" }}>
+            <div className="menu-header">
+              <p onClick={() => scrollToSection("home")}>Acasa</p>
+              <p onClick={() => scrollToSection("services")}>Servicii</p>
+              <p onClick={() => scrollToSection("about")}>Despre</p>
+              <p onClick={() => scrollToSection("contact")}>Contact</p>
+            </div>
+          </Parallax>
+          <Parallax
+            translateY={["-100px", "450px"]}
+            style={{ background: "none" }}>
+            <div className="call-to-action">
+              Pentru urgente!{" "}
+              <button className="button-contact-footer">Contact </button>
+            </div>
+          </Parallax>
         </div>
       </div>
-      <p className="our-agency">
-        {" "}
-        builded by <a href="https://www.upvisionmedia.com">upvisionMedia.com</a>
-      </p>
+      <Parallax translateY={["-100px", "850px"]} style={{ background: "none" }}>
+        <p className="our-agency">
+          {" "}
+          builded by{" "}
+          <a href="https://www.upvisionmedia.com">upvisionMedia.com</a>
+        </p>
+      </Parallax>
     </>
   );
 };
