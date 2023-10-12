@@ -88,13 +88,15 @@ padding-top: 15%;
         height: 150vh;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
+        justify-content: center;
     }
 
     .first-map,
     .second-map {
         width: 100%;
+        align-items: center;
+            justify-content: center;
     }
 
     .details-first-map p,
