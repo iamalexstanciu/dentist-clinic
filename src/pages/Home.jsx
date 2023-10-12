@@ -85,7 +85,7 @@ function Home() {
           </span>
         </div>
       </motion.path>
-      <Parallax translateX={["-5%", "20%"]}>
+      <Parallax className="parallax-subsection" translateX={["-5%", "20%"]}>
         <div className="subsection">
           <Widget className="widget widget-1">
             <a href="#0" className="learn-more">
