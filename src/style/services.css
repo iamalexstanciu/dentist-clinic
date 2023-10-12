@@ -194,10 +194,13 @@ width: 30%;
         width: 60%;
     }
 
+    .parallax-services{
+        transform: none !important;
+    }
     .services-title-container {
         font-size: 50px;
         width: 80%;
-        top: 0%;
+        top: 3%;
     }
 }
 

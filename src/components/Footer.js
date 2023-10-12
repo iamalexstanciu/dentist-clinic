@@ -18,6 +18,7 @@ const Footer = () => {
       <div className="footer-69">
         <div className="footer-container">
           <Parallax
+            className="parallax-logo"
             translateY={["-100px", "450px"]}
             style={{ background: "none" }}>
             <img
@@ -27,6 +28,7 @@ const Footer = () => {
             />
           </Parallax>
           <Parallax
+            className="parallax-menu"
             translateY={["-100px", "450px"]}
             style={{ background: "none" }}>
             <div className="menu-header">
