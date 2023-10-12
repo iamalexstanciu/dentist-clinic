@@ -121,6 +121,32 @@ width: 30%;
     }
 }
 
+@media (max-width: 1100px) {
+    .services {
+        height: 125vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-side-services {
+        gap: 10px;
+        left: -8.5%;
+        padding: 2%;
+        top: -15%;
+    }
+
+    .widget-services {
+        width: 80%;
+        height: 8rem;
+    }
+
+    .services-title-container {
+        font-size: 50px;
+        width: 80%;
+        top: 10%;
+    }
+}
+
 @media (max-width: 950px) {
     .services {
         height: 100vh;
