@@ -252,15 +252,19 @@ overflow: visible;
 }
 
 .image-right {
-  top: 20%;
+  top: 5%;
+  z-index: 1;
+  height: auto;
 }
 
 .image-right2{
-  top: 30%;
+  top: 10%;
+  height: auto;
 }
 
 .image-right3 {
-  top: 25%;
+  top: 15%;
+  height: auto;
 }
 
 .text-homepage {
