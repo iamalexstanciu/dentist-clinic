@@ -19,7 +19,7 @@ function Services() {
           Soluții complete pentru sănătatea orală.
         </title>
       </div>
-      <Parallax translateX={["-100px", "200px"]}>
+      <Parallax translateX={["100px", "200px"]}>
         <div className="right-side-services">
           <div className="widget-services widget-1">
             <h3 className="widget-title">
