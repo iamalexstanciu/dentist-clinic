@@ -68,6 +68,9 @@ font-family: 'Exo',
 
  }
   @media (max-width: 950px) {
+    .about{
+        height: 110vh;
+    }
       .dentist-image {
           width: 100%;
           margin: 18% auto;

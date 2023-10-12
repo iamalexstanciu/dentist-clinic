@@ -300,6 +300,7 @@ overflow: visible;
 
   .text-homepage {
     top: 30%;
+    font-size: 40px;
   }
 
   .subsection {
@@ -334,7 +335,7 @@ overflow: visible;
   }
 
   .subsection {
-    width: 80%;
+    width: 60%;
   }
 
   .subsection a {

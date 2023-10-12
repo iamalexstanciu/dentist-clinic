@@ -156,7 +156,7 @@ width: 30%;
 
     .right-side-services {
         gap: 15px;
-        left: 0%;
+        left: -16%;
         padding: 2%;
         top: -10%;
     }
@@ -168,7 +168,8 @@ width: 30%;
     .services-title-container {
         font-size: 45px;
         width: 80%;
-        top: -2%;
+        top: 10%;
+        transform: translateX(5%);
     }
 }
 
