@@ -377,7 +377,7 @@ overflow: visible;
 }
 
   .text-homepage {
-    top: 35%;
+    top: 30%;
     font-size: 38px;
     width: 50%;
 }
@@ -390,25 +390,16 @@ overflow: visible;
  
 
   .image-right,
-  .image-right2
+  .image-right2,
+  .image-right3
   {
-height: auto;
-}
-
-.image-right{
-  top: 20%;
-}
-
-.image-right2 {
-  top: 25%;
-}
-  .image-right3{
-
     display: none;
-  }
-
+}
   .text-homepage {
-    font-size: 30px;
+    width: 90%;
+    font-size: 40px;
+    left: 5%;
+    text-align: left;
   }
 
   .subsection {

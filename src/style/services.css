@@ -210,6 +210,10 @@ width: 30%;
     height: 300vh;
 }
 
+.services-title-container{
+    width: 90%;
+}
+
 }
 
 @media (max-width: 360px) {
