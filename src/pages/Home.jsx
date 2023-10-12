@@ -19,7 +19,7 @@ const Widget = styled.div`
 `;
 
 function Home() {
-  const { ref: ref } = useParallax({ speed: 30 });
+  const { ref: ref } = useParallax({ speed: 20 });
   const { ref: ref2 } = useParallax({ speed: 20 });
   const { ref: ref4 } = useParallax({ speed: 22 });
   const { ref: ref5 } = useParallax({ speed: 24 });
