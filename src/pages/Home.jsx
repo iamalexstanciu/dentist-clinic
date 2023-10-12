@@ -3,7 +3,7 @@ import "../style/home.css";
 import Tooth from "../assets/tooth.png";
 import Tooth1 from "../assets/tooth2.png";
 import Tooth2 from "../assets/tooth3.png";
-
+import { useParallax } from "react-scroll-parallax";
 import Logo from "../components/Logo";
 import { motion } from "framer-motion";
 import styled from "styled-components";
@@ -19,6 +19,8 @@ const Widget = styled.div`
 `;
 
 function Home() {
+  const { ref, ref2 } = useParallax({ speed: 10, speed: 8 });
+
   return (
     <div className="section" id="home">
       <Logo />
@@ -63,7 +65,7 @@ function Home() {
           duration: 3,
           ease: "linear",
         }}>
-        <div className="text-homepage">
+        <div className="text-homepage" ref={ref}>
           <span>
             <span>
               Zâmbiți cu Încredere:
@@ -76,7 +78,7 @@ function Home() {
           </span>
         </div>
       </motion.path>
-      <div className="subsection">
+      <div className="subsection" ref={ref2}>
         <Widget className="widget widget-1">
           <a href="#0" className="learn-more">
             Grijă Preventivă
