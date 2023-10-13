@@ -318,24 +318,24 @@ overflow: visible;
   }
 
   .image-right {
-    top: 20%;
+    top: 25%;
   }
 
   .image-right2 {
-    top: 30%;
+    top: 35%;
   }
 
   .image-right3 {
-    top: 25%;
+    top: 30%;
   }
 
   .text-homepage {
     width: 40%;
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .subsection {
-    width: 60%;
+    width: 80%;
   }
 
   .subsection a {
@@ -344,7 +344,9 @@ overflow: visible;
 
 }
 
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
+
+
   .top-right-background {
     display: none;
   }
@@ -367,13 +369,13 @@ overflow: visible;
     height: auto;
     top: 20%;
     z-index: 0;
-    left: 70%;
+    left: 65%;
 }
 
 .image-right2 {
     height: auto;
     top: 25%;
-      left: 55%;
+    left: 50%;
 }
 
   .text-homepage {
@@ -386,7 +388,7 @@ overflow: visible;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
  
 
   .image-right,

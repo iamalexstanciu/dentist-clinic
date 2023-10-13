@@ -55,7 +55,7 @@ padding-top: 15%;
 @media (max-width: 768px) {
     .contact {
         padding: 5px;
-        height: 200vh;
+        height: 160vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
