@@ -269,7 +269,8 @@ overflow: visible;
 
 .text-homepage {
   width: 40%;
-  font-size: 45px;
+  top: 30%;
+  font-size: 50px;
 }
 
 .subsection {
@@ -397,6 +398,32 @@ overflow: visible;
   {
     display: none;
 }
+  .text-homepage {
+    width: 90%;
+    font-size: 45px;
+    left: 5%;
+    text-align: left;
+  }
+
+  .subsection {
+    width: 95%;
+    left: 2.5%;
+  }
+
+  .subsection a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+
+
+  .image-right,
+  .image-right2,
+  .image-right3 {
+    display: none;
+  }
+
   .text-homepage {
     width: 90%;
     font-size: 35px;

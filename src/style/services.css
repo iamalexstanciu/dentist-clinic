@@ -210,7 +210,7 @@ width: 30%;
 /* Responsive adjustments for mobile */
 @media (max-width: 480px) {
 .services{
-    height: 300vh;
+    height: 230vh;
 }
 
 .services-title-container{

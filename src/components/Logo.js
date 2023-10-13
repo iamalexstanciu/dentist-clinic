@@ -21,9 +21,9 @@ const Container = styled.div`
   }
   @media (max-width: 480px) {
     img {
-      width: 40%;
+      width: 55%;
       top: 5rem;
-      left: 2rem;
+      left: 7rem;
     }
   }
   @media (max-width: 360px) {
