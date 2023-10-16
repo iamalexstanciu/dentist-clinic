@@ -17,7 +17,7 @@ const NavContainer = styled(motion.div)`
   align-items: center;
   object-position: center;
 
-  @media (max-width: 550px) {
+  @media screen and (max-width: 560px) {
     top: ${(props) => (props.click ? "0" : `calc(-50vh - 5.5rem)`)};
   }
 `;
