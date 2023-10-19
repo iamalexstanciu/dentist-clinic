@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/about.css";
 import { useParallax } from "react-scroll-parallax";
+import Catalin from "../assets/catalin.png";
 
 function About() {
   const { ref: rightSide } = useParallax({ speed: 30 });
@@ -13,7 +14,7 @@ function About() {
           className="dentist-image"
           ref={dentistImage}
           alt="catalin teodor dentist bucharest"
-          src="https://images.unsplash.com/photo-1667133295308-9ef24f71952e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1957&q=80"
+          src={Catalin}
         />
       </div>
       <div className="right-side-about" ref={rightSide}>
