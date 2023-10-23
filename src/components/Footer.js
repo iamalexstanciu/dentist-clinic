@@ -43,7 +43,12 @@ const Footer = () => {
             style={{ background: "none" }}>
             <div className="call-to-action">
               Pentru urgente!{" "}
-              <button className="button-contact-footer">Contact </button>
+              <a
+                style={{ textDecoration: "none" }}
+                href="tel:+40742352390"
+                className="button-contact-footer">
+                Contact{" "}
+              </a>
             </div>
           </Parallax>
         </div>
