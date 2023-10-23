@@ -23,7 +23,7 @@ const Container = styled.div`
     img {
       width: 55%;
       top: 5rem;
-      left: 7rem;
+      left: 23%;
     }
   }
   @media (max-width: 360px) {
