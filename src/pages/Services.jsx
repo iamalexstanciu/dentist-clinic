@@ -10,7 +10,7 @@ import { useParallax } from "react-scroll-parallax";
 import { Parallax } from "react-scroll-parallax";
 
 function Services() {
-  const { ref: servicesContainer } = useParallax({ speed: 30 });
+  const { ref: servicesContainer } = useParallax({ speed: 20 });
 
   return (
     <div className="services" id="services">
@@ -19,7 +19,7 @@ function Services() {
           Soluții complete pentru sănătatea orală.
         </title>
       </div>
-      <Parallax className="parallax-services" translateY={["-50px", "100px"]}>
+      <Parallax className="parallax-services" translateY={["-220px", "100px"]}>
         <div className="right-side-services">
           <div className="widget-services widget-1">
             <h3 className="widget-title">

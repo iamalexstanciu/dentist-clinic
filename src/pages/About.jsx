@@ -4,9 +4,10 @@ import { useParallax } from "react-scroll-parallax";
 import Catalin from "../assets/catalin.png";
 
 function About() {
-  const { ref: rightSide } = useParallax({ speed: 30 });
-  const { ref: dentistImage } = useParallax({ speed: 20 });
+  const { ref: rightSide } = useParallax({ speed: 20 });
+  const { ref: dentistImage } = useParallax({ speed: 10 });
 
+  
   return (
     <div className="about" id="about">
       <div className="left-side-about">
