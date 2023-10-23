@@ -194,12 +194,12 @@ width: 30%;
         gap: 15px;
         left: 0%;
         top: 0%;
-        transform: translateY(150px);
+        transform: translateY(100px);
     }
 
     .widget-services{
         width: 60%;
-        transform: translateY(50px);
+        transform: translateY(20px);
     }
 
     .services-title-container {
@@ -212,7 +212,7 @@ width: 30%;
 /* Responsive adjustments for mobile */
 @media (max-width: 480px) {
 .services{
-    height: 270vh;
+    height: 300vh;
 }
 
 .services-title-container{
