@@ -7,12 +7,11 @@ function About() {
   const { ref: rightSide } = useParallax({ speed: 20 });
   const { ref: dentistImage } = useParallax({ speed: 10 });
 
-  
   return (
     <div className="about" id="about">
       <div className="left-side-about">
         <img
-          className="dentist-image"
+          className="dentist-image automatic-hover-effect"
           ref={dentistImage}
           alt="catalin teodor dentist bucharest"
           src={Catalin}
