@@ -429,7 +429,7 @@ overflow: visible;
      width: 50%;
    }
 
-
+ 
 
    .subsection a{
     font-size: 1.1rem;
@@ -452,7 +452,9 @@ overflow: visible;
     text-align: left;
   }
 
-
+    .subsection {
+      top: -4.5rem;
+    }
   .subsection a {
     font-size: 12px;
   }
