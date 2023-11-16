@@ -385,7 +385,8 @@ overflow: visible;
     width: 50%;
 }
   .subsection{
-    width: 95%;
+    width: 90%;
+    left: 2.5%;
   }
 }
 
@@ -428,8 +429,10 @@ overflow: visible;
      width: 50%;
    }
 
-   .subsection {
-     width: 95%;
+
+
+   .subsection a{
+    font-size: 1.1rem;
    }
  }
 
@@ -449,10 +452,6 @@ overflow: visible;
     text-align: left;
   }
 
-  .subsection {
-    width: 95%;
-    left: 2.5%;
-  }
 
   .subsection a {
     font-size: 12px;
@@ -475,10 +474,6 @@ overflow: visible;
     text-align: left;
   }
 
-  .subsection {
-    width: 95%;
-    left: 2.5%;
-  }
 
   .subsection a {
     font-size: 12px;
