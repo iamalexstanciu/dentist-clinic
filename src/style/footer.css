@@ -164,6 +164,7 @@ gap: 2rem;
 .call-to-action {
 flex-direction: column;
 gap: 2rem;
+padding: 20% 0;
 }
 
 .button-contact-footer {
@@ -193,9 +194,5 @@ padding-bottom: 5%;
             padding-bottom: 10%;
         }
 
-                .call-to-action {
-                    flex-direction: column;
-                    gap: 2rem;
-                    padding: 20% 0%;
-                }
+               
 }
