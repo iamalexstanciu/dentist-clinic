@@ -6,8 +6,8 @@ import Email from "../assets/email.png";
 import { useParallax } from "react-scroll-parallax";
 
 function Contact() {
-  const { ref: firstMap } = useParallax({ speed: 50 });
-  const { ref: secondMap } = useParallax({ speed: 50 });
+  const { ref: firstMap } = useParallax({ speed: 30 });
+  const { ref: secondMap } = useParallax({ speed: 35 });
 
   return (
     <div className="contact" id="contact">
